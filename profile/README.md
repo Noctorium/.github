@@ -36,12 +36,16 @@ other device and it is there.
   when it plays.
 - **Noctorium Connect.** Take the music off one device and carry on from the same second on another,
   phone to desktop or back again, over your own network.
-- **Lyrics**, synced where a synced version exists, from LRCLIB, Musixmatch, Genius and others.
+- **Lyrics**, synced where a synced version exists, from LRCLIB, Musixmatch, Genius and others. Switch
+  source right on the lyrics, and Noctorium remembers your pick.
 - **Scrobbling** to Last.fm and ListenBrainz, and what you are playing shown on Discord.
 - **Downloads.** Save songs for offline listening. On the desktop they are saved as MP3s with their covers.
-- **Make it yours.** Fourteen themes, among them Catppuccin, Nord, Dracula, Gruvbox, Rosé Pine and Tokyo
-  Night, or one of your own. Accent colours, including one taken from the artwork. Liquid glass, and
-  several player bar layouts.
+- **Out of the way when you want it.** On the desktop, keep the music playing in the tray when you close
+  the window, and start Noctorium with Windows, in its window or straight into the tray.
+- **Make it yours.** Nineteen themes, among them Catppuccin, Nord, Dracula, Gruvbox, Rosé Pine, Tokyo
+  Night, three pure black crimson ones for OLED screens, and Windows 98 and XP. Or make one of your own.
+  Accent colours, including one taken from the artwork. Liquid glass, several player bar layouts and six
+  seek bar styles.
 
 ## Get it
 
