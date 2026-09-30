@@ -41,11 +41,12 @@ other device and it is there.
 - **Scrobbling** to Last.fm and ListenBrainz, and what you are playing shown on Discord.
 - **Downloads.** Save songs for offline listening. On the desktop they are saved as MP3s with their covers.
 - **Out of the way when you want it.** On the desktop, keep the music playing in the tray when you close
-  the window, and start Noctorium with Windows, in its window or straight into the tray.
+  the window, and start Noctorium with Windows, in its window or straight into the tray. On the phone, it
+  keeps playing with the screen locked, even on phones that like to close apps.
 - **Make it yours.** Nineteen themes, among them Catppuccin, Nord, Dracula, Gruvbox, Rosé Pine, Tokyo
   Night, three pure black crimson ones for OLED screens, and Windows 98 and XP. Or make one of your own.
-  Accent colours, including one taken from the artwork. Liquid glass, several player bar layouts and six
-  seek bar styles.
+  Accent colours, including one taken from the artwork. Liquid glass, several player bar layouts, six
+  seek bar styles, and animations throughout that you can switch off.
 
 ## Get it
 
