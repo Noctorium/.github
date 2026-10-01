@@ -46,7 +46,9 @@ other device and it is there.
 - **Make it yours.** Nineteen themes, among them Catppuccin, Nord, Dracula, Gruvbox, Rosé Pine, Tokyo
   Night, three pure black crimson ones for OLED screens, and Windows 98 and XP. Or make one of your own.
   Accent colours, including one taken from the artwork. Liquid glass, several player bar layouts, six
-  seek bar styles, and animations throughout that you can switch off.
+  seek bar styles, and animations throughout that you can switch off. On the desktop, six layouts for the
+  now playing screen, from one large centred cover to lyrics that fill the screen, with the cover as a
+  record that turns while it plays and the artwork blurred behind it if you like.
 
 ## Get it
 
