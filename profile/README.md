@@ -69,6 +69,19 @@ irm https://noctorium.vercel.app/install | iex
 curl -fsSL https://noctorium.vercel.app/install | sh
 ```
 
+<details>
+<summary>If the website is ever down: the same, straight from GitHub</summary>
+
+```powershell
+irm https://raw.githubusercontent.com/Noctorium/Noctorium-Installer/main/scripts/install.ps1 | iex
+```
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Noctorium/Noctorium-Installer/main/scripts/install.sh | sh
+```
+
+</details>
+
 Or nothing at all: [play in the browser](https://noctorium-music.vercel.app). Every file is also here:
 
 | Platform | Download |
