@@ -6,7 +6,7 @@
 
 **Two services. One player.**
 
-YouTube Music and SoundCloud in one library: on your desktop, your phone, in a terminal, and in any browser.
+YouTube Music and SoundCloud in one library: on Windows, macOS, Linux and Android, in a terminal, and in any browser.
 
 [Website](https://noctorium.vercel.app) · [Play in the browser](https://noctorium-music.vercel.app) · [Download](https://github.com/Noctorium/Noctorium-Installer/releases/latest) · [Release notes](https://github.com/Noctorium/Noctorium-Installer/tree/main/notes)
 
@@ -47,7 +47,7 @@ other device and it is there.
 - **Scrobbling** to Last.fm and ListenBrainz, and what you are playing shown on Discord.
 - **Downloads.** Save songs for offline listening. On the desktop they are saved as MP3s with their covers.
 - **Out of the way when you want it.** On the desktop, keep the music playing in the tray when you close
-  the window, and start Noctorium with Windows, in its window or straight into the tray. On the phone, it
+  the window (the menu bar on a Mac), and start Noctorium with the computer, in its window or straight into the tray. On the phone, it
   keeps playing with the screen locked, even on phones that like to close apps.
 - **Make it yours.** Nineteen themes, among them Catppuccin, Nord, Dracula, Gruvbox, Rosé Pine, Tokyo
   Night, three pure black crimson ones for OLED screens, and Windows 98 and XP. Or make one of your own.
@@ -58,7 +58,7 @@ other device and it is there.
 
 ## Get it
 
-In one line, from PowerShell on Windows or a terminal on Linux. It asks whether you want Noctorium, the
+In one line, from PowerShell on Windows or a terminal on macOS or Linux. It asks whether you want Noctorium, the
 Noctorium CLI or both, and checks what it downloads against the release's checksums:
 
 ```powershell
@@ -87,11 +87,12 @@ Or nothing at all: [play in the browser](https://noctorium-music.vercel.app). Ev
 | Platform | Download |
 | --- | --- |
 | Windows | [`Noctorium-Installer-windows-x64.exe`](https://github.com/Noctorium/Noctorium-Installer/releases/latest/download/Noctorium-Installer-windows-x64.exe), or the setup `.exe` or `.msi` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest) |
+| macOS | The `.dmg` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest): `-macos-arm64` for Apple silicon, `-macos-x64` for Intel. Open it and drag Noctorium into Applications; it is not signed by Apple, so the first time choose Open Anyway in System Settings, Privacy & Security — or use the one line above, which skips that |
 | Debian, Ubuntu, Mint | The `.deb` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or [`noctorium-installer-linux-x64`](https://github.com/Noctorium/Noctorium-Installer/releases/latest/download/noctorium-installer-linux-x64) |
 | Fedora, RHEL, openSUSE | The `.rpm` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or the same Linux installer |
 | Arch, Manjaro, EndeavourOS | The `.pkg.tar.zst` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or the same Linux installer |
 | Any Linux | The `.AppImage`, or the `.flatpak` (which carries its own mpv), from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest) |
-| A terminal, and `noctorium web` | `noctorium-cli-<version>-windows-x64.zip` or `-linux-x64.tar.gz` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or the one line above |
+| A terminal, and `noctorium web` | `noctorium-cli-<version>-windows-x64.zip`, `-linux-x64.tar.gz`, `-macos-arm64.tar.gz` or `-macos-x64.tar.gz` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or the one line above |
 | A browser | Nothing to download: [noctorium-music.vercel.app](https://noctorium-music.vercel.app) |
 | Android | The `.apk` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or [`Noctorium-Installer-android.apk`](https://github.com/Noctorium/Noctorium-Installer/releases/latest/download/Noctorium-Installer-android.apk) |
 
@@ -108,7 +109,7 @@ its certificate SHA-256 fingerprint is
 | Repository | What it is |
 | --- | --- |
 | [Noctorium-Base](https://github.com/Noctorium/Noctorium-Base) | The shared Kotlin core: library, queue, providers, playlists, settings, scrobbling, lyrics, Connect. Every Noctorium is built on it, so they behave the same rather than nearly the same. Beside it, `jvm`: yt-dlp, mpv and the rest a computer shares. |
-| [Noctorium-Desktop](https://github.com/Noctorium/Noctorium-Desktop) | Windows and Linux. Compose Desktop, mpv for audio, yt-dlp for the services, an embedded Chromium for sign-in. |
+| [Noctorium-Desktop](https://github.com/Noctorium/Noctorium-Desktop) | Windows, macOS and Linux. Compose Desktop, mpv for audio, yt-dlp for the services, an embedded Chromium for sign-in. |
 | [Noctorium-cli](https://github.com/Noctorium/Noctorium-cli) | The terminal player, and `noctorium web`, which serves the web player to the browsers in the house. |
 | [noctorium-web-player](https://github.com/Noctorium/noctorium-web-player) | The web player: the page `noctorium web` serves, and the hosted player at [noctorium-music.vercel.app](https://noctorium-music.vercel.app), whose music comes straight from the services to the browser. |
 | [Noctorium-Mobile](https://github.com/Noctorium/Noctorium-Mobile) | Android. Compose, Media3 for audio, NewPipeExtractor for the services, the system WebView for sign-in. |
