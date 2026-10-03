@@ -6,7 +6,7 @@
 
 **Two services. One player.**
 
-YouTube Music and SoundCloud in one library: on your desktop, your phone, in a terminal and in any browser in the house.
+YouTube Music and SoundCloud in one library: on your desktop, your phone, in a terminal, and in any browser.
 
 [Website](https://noctorium.vercel.app) · [Play in the browser](https://noctorium-music.vercel.app) · [Download](https://github.com/Noctorium/Noctorium-Installer/releases/latest) · [Release notes](https://github.com/Noctorium/Noctorium-Installer/tree/main/notes)
 
