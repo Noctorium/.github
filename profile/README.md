@@ -8,7 +8,7 @@
 
 YouTube Music and SoundCloud in one library: on Windows, macOS, Linux and Android, in a terminal, and in any browser.
 
-[Website](https://noctorium.vercel.app) · [Play in the browser](https://noctorium-music.vercel.app) · [Download](https://github.com/Noctorium/Noctorium-Installer/releases/latest) · [Release notes](https://github.com/Noctorium/Noctorium-Installer/tree/main/notes)
+[Website](https://noctorium.vercel.app) · [Play in the browser](https://noctorium-music.vercel.app) · [Download](https://github.com/Noctorium/Noctorium-Installer/releases/latest) · [What's new](https://noctorium.vercel.app/#whats-new) · [Release notes](https://github.com/Noctorium/Noctorium-Installer/tree/main/notes)
 
 [![Latest release](https://img.shields.io/github/v/release/Noctorium/Noctorium-Installer?label=release&color=b47cff)](https://github.com/Noctorium/Noctorium-Installer/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Noctorium/Noctorium-Installer/total?color=b47cff)](https://github.com/Noctorium/Noctorium-Installer/releases)
