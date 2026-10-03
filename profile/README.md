@@ -8,7 +8,7 @@
 
 YouTube Music and SoundCloud in one library: on your desktop, your phone, in a terminal and in any browser in the house.
 
-[Website](https://noctorium.vercel.app) · [Download](https://github.com/Noctorium/Noctorium-Installer/releases/latest) · [Release notes](https://github.com/Noctorium/Noctorium-Installer/tree/main/notes)
+[Website](https://noctorium.vercel.app) · [Play in the browser](https://noctorium-music.vercel.app) · [Download](https://github.com/Noctorium/Noctorium-Installer/releases/latest) · [Release notes](https://github.com/Noctorium/Noctorium-Installer/tree/main/notes)
 
 [![Latest release](https://img.shields.io/github/v/release/Noctorium/Noctorium-Installer?label=release&color=b47cff)](https://github.com/Noctorium/Noctorium-Installer/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Noctorium/Noctorium-Installer/total?color=b47cff)](https://github.com/Noctorium/Noctorium-Installer/releases)
@@ -35,9 +35,11 @@ other device and it is there.
   audio to other players, so each song is matched to the same recording on YouTube Music or SoundCloud
   when it plays.
 - **In a terminal, and in a browser.** `noctorium` is the whole player in a terminal — covers drawn in it,
-  synced lyrics, every theme, by keyboard or mouse. `noctorium web` serves it to every browser on your
-  network: open the link, or scan its code with a phone, and the music plays out of that device. It runs on
-  your own computer, so your sessions never leave it.
+  synced lyrics, every theme, by keyboard or mouse. In a browser, [noctorium-music.vercel.app](https://noctorium-music.vercel.app)
+  plays both services with nothing to install and no account, your likes and playlists kept in the browser.
+  With your own accounts, `noctorium web` serves the same player from your computer to every browser on
+  your network: open the link, or scan its code with a phone, and the music plays out of that device, while
+  your sessions never leave the computer.
 - **Noctorium Connect.** Take the music off one device and carry on from the same second on another,
   phone to desktop or back again, over your own network.
 - **Lyrics**, synced where a synced version exists, from LRCLIB, Musixmatch, Genius and others. Switch
@@ -56,6 +58,19 @@ other device and it is there.
 
 ## Get it
 
+In one line, from PowerShell on Windows or a terminal on Linux. It asks whether you want Noctorium, the
+Noctorium CLI or both, and checks what it downloads against the release's checksums:
+
+```powershell
+irm https://noctorium.vercel.app/install | iex
+```
+
+```bash
+curl -fsSL https://noctorium.vercel.app/install | sh
+```
+
+Or nothing at all: [play in the browser](https://noctorium-music.vercel.app). Every file is also here:
+
 | Platform | Download |
 | --- | --- |
 | Windows | [`Noctorium-Installer-windows-x64.exe`](https://github.com/Noctorium/Noctorium-Installer/releases/latest/download/Noctorium-Installer-windows-x64.exe), or the setup `.exe` or `.msi` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest) |
@@ -63,7 +78,8 @@ other device and it is there.
 | Fedora, RHEL, openSUSE | The `.rpm` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or the same Linux installer |
 | Arch, Manjaro, EndeavourOS | The `.pkg.tar.zst` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or the same Linux installer |
 | Any Linux | The `.AppImage`, or the `.flatpak` (which carries its own mpv), from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest) |
-| A terminal, and the web player | `noctorium-cli-<version>-windows-x64.zip` or `-linux-x64.tar.gz` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or `noctorium-installer-cli --product cli` |
+| A terminal, and `noctorium web` | `noctorium-cli-<version>-windows-x64.zip` or `-linux-x64.tar.gz` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or the one line above |
+| A browser | Nothing to download: [noctorium-music.vercel.app](https://noctorium-music.vercel.app) |
 | Android | The `.apk` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or [`Noctorium-Installer-android.apk`](https://github.com/Noctorium/Noctorium-Installer/releases/latest/download/Noctorium-Installer-android.apk) |
 
 The installers — a window, or `noctorium-installer-cli` in a terminal — are small programs that fetch the right file for your machine and check it against the
@@ -81,9 +97,9 @@ its certificate SHA-256 fingerprint is
 | [Noctorium-Base](https://github.com/Noctorium/Noctorium-Base) | The shared Kotlin core: library, queue, providers, playlists, settings, scrobbling, lyrics, Connect. Every Noctorium is built on it, so they behave the same rather than nearly the same. Beside it, `jvm`: yt-dlp, mpv and the rest a computer shares. |
 | [Noctorium-Desktop](https://github.com/Noctorium/Noctorium-Desktop) | Windows and Linux. Compose Desktop, mpv for audio, yt-dlp for the services, an embedded Chromium for sign-in. |
 | [Noctorium-cli](https://github.com/Noctorium/Noctorium-cli) | The terminal player, and `noctorium web`, which serves the web player to the browsers in the house. |
-| [noctorium-web-player](https://github.com/Noctorium/noctorium-web-player) | The web player itself: React, talking only to the Noctorium that served it. |
+| [noctorium-web-player](https://github.com/Noctorium/noctorium-web-player) | The web player: the page `noctorium web` serves, and the hosted player at [noctorium-music.vercel.app](https://noctorium-music.vercel.app), whose music comes straight from the services to the browser. |
 | [Noctorium-Mobile](https://github.com/Noctorium/Noctorium-Mobile) | Android. Compose, Media3 for audio, NewPipeExtractor for the services, the system WebView for sign-in. |
-| [Noctorium-Installer](https://github.com/Noctorium/Noctorium-Installer) | The release pipeline, the releases themselves, and the small installers. This is what the in-app updater watches. |
+| [Noctorium-Installer](https://github.com/Noctorium/Noctorium-Installer) | The release pipeline, the releases themselves, the small installers and the one-line install scripts. This is what the in-app updater watches. |
 | [Noctorium-Service](https://github.com/Noctorium/Noctorium-Service) | The optional Noctorium account, which keeps your listening statistics. |
 | [Noctorium-Website](https://github.com/Noctorium/Noctorium-Website) | [noctorium.vercel.app](https://noctorium.vercel.app), which always offers the latest release. |
 
