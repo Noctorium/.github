@@ -98,7 +98,8 @@ Or nothing at all: [play in the browser](https://noctorium-music.vercel.app). Ev
 
 The installers — a window, or `noctorium-installer-cli` in a terminal — are small programs that fetch the right file for your machine and check it against the
 published checksum before running it. The desktop packages carry everything they need, so nothing has to
-be installed first. After that, Noctorium updates itself.
+be installed first. After that, Noctorium updates itself. On Windows that is one permission prompt and a
+progress bar, with nothing to click through, and Noctorium opens again when it is done.
 
 Every release has a `SHA256SUMS.txt` beside its files. The APK is signed with Noctorium's release key, and
 its certificate SHA-256 fingerprint is
