@@ -56,6 +56,16 @@ other device and it is there.
   now playing screen, from one large centred cover to lyrics that fill the screen, with the cover as a
   record that turns while it plays and the artwork blurred behind it if you like.
 
+## Goals
+
+What Noctorium is working towards next:
+
+- **Bandcamp support.** Bandcamp as a service of its own: search it, play its albums and tracks, and find
+  your Bandcamp collection in the library beside the others.
+- **Full Spotify support.** Spotify as a whole service, not only a library to read: search it, browse its
+  albums and artists, and like songs and edit playlists on Spotify itself, as Noctorium already does on
+  YouTube Music and SoundCloud.
+
 ## Get it
 
 In one line, from PowerShell on Windows or a terminal on macOS or Linux. It asks whether you want Noctorium, the
