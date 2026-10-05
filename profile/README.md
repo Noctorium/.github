@@ -35,7 +35,7 @@ other device and it is there.
   audio to other players, so each song is matched to the same recording on YouTube Music or SoundCloud
   when it plays.
 - **In a terminal, and in a browser.** `noctorium` is the whole player in a terminal — covers drawn in it,
-  synced lyrics, every theme, by keyboard or mouse. In a browser, [noctorium-music.vercel.app](https://noctorium-music.vercel.app)
+  synced lyrics, every theme, by keyboard or mouse, and it keeps itself up to date. In a browser, [noctorium-music.vercel.app](https://noctorium-music.vercel.app)
   plays both services with nothing to install and no account, your likes and playlists kept in the browser.
   With your own accounts, `noctorium web` serves the same player from your computer to every browser on
   your network: open the link, or scan its code with a phone, and the music plays out of that device, while
@@ -96,10 +96,13 @@ Or nothing at all: [play in the browser](https://noctorium-music.vercel.app). Ev
 | A browser | Nothing to download: [noctorium-music.vercel.app](https://noctorium-music.vercel.app) |
 | Android | The `.apk` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or [`Noctorium-Installer-android.apk`](https://github.com/Noctorium/Noctorium-Installer/releases/latest/download/Noctorium-Installer-android.apk) |
 
-The installers — a window, or `noctorium-installer-cli` in a terminal — are small programs that fetch the right file for your machine and check it against the
-published checksum before running it. The desktop packages carry everything they need, so nothing has to
-be installed first. After that, Noctorium updates itself. On Windows that is one permission prompt and a
-progress bar, with nothing to click through, and Noctorium opens again when it is done.
+The installers — a window, or `noctorium-installer-cli` in a terminal — are small programs that install
+Noctorium, the Noctorium CLI or both. They fetch the right files for your machine, four pieces at a time
+and both at once, and check them against the published checksums before running anything. The desktop
+packages carry everything they need, so nothing has to be installed first. After that, both update
+themselves. On Windows, Noctorium asks once for permission, shows a progress bar with nothing to click
+through, and opens again when it is done. The CLI checks once a day and takes over the new version after
+you quit.
 
 Every release has a `SHA256SUMS.txt` beside its files. The APK is signed with Noctorium's release key, and
 its certificate SHA-256 fingerprint is
