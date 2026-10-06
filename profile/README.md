@@ -4,9 +4,9 @@
 
 # Noctorium
 
-**Two services. One player.**
+**All your music. One player.**
 
-YouTube Music and SoundCloud in one library: on Windows, macOS, Linux and Android, in a terminal, and in any browser.
+YouTube Music, SoundCloud, Bandcamp, Spotify and VK Music in one library: on Windows, macOS, Linux and Android, in a terminal, and in any browser.
 
 [Website](https://noctorium.vercel.app) · [Play in the browser](https://noctorium-music.vercel.app) · [Download](https://github.com/Noctorium/Noctorium-Installer/releases/latest) · [What's new](https://noctorium.vercel.app/#whats-new) · [Release notes](https://github.com/Noctorium/Noctorium-Installer/tree/main/notes)
 
@@ -16,27 +16,43 @@ YouTube Music and SoundCloud in one library: on Windows, macOS, Linux and Androi
 
 </div>
 
-Noctorium is a music player with one home, one search, one library, one queue and one player for both
-services. It uses your own accounts. When you like a song or edit a playlist in Noctorium, the change is
-made on YouTube Music or SoundCloud itself, not kept in a copy here. Open either service tomorrow on any
-other device and it is there.
+Noctorium is a music player with one home, one search, one library, one queue and one player for all of
+them. It uses your own accounts. When you like a song or edit a playlist in Noctorium, the change is made on
+the service itself, not kept in a copy here. Open that service tomorrow on any other device and it is there.
 
 ## What it does
 
-- **Both services side by side.** One search shows results from both. Playlists and liked songs from each
-  sit in the same library, and a queue can mix songs from either.
+- **Every service side by side.** One search shows results from all of them, or from the one you pick.
+  Playlists and liked songs from each sit in the same library, and a queue can mix songs from any of them.
 - **Your real accounts.** Likes, and playlists you can create, rename, make private or delete, all live on
   the service. On YouTube Music you can also reorder your playlists and follow artists, and your plays go
-  into your history there, so its own recommendations learn from what you play here.
-- **Signing in on their page.** Your password goes to Google's or SoundCloud's own page, shown inside
-  Noctorium, and never to a form of ours. Only the session is kept, and it stays on your device. The
-  desktop can also be signed in by scanning a QR code with the phone.
-- **Your Spotify library too.** Your Spotify playlists and liked songs, in your order. Spotify serves no
-  audio to other players, so each song is matched to the same recording on YouTube Music or SoundCloud
-  when it plays.
+  into your history there, so its own recommendations learn from what you play here. A heart saves to
+  Liked Songs on Spotify, and to My music on VK.
+- **Signing in on their page.** Your password goes to the service's own page — Google's, SoundCloud's,
+  Spotify's or VK's — and never to a form of ours. Only the session is kept, and it stays on your device.
+  The desktop can also be signed in by scanning a QR code with the phone.
+- **Spotify, two ways.** With any account: your playlists and Liked Songs in the library, Spotify in search
+  with its albums and artists, your top songs and what you played lately on Home. Spotify serves no audio
+  to other players, so each song is matched to the same recording on YouTube Music when it plays. With
+  Premium, Spotify songs play on Spotify itself instead, in your own Spotify app — on the computer, the
+  phone or a speaker — while Noctorium tells it what to play and follows along. Noctorium never decodes
+  Spotify's audio.
+- **Bandcamp, with nothing to sign in to.** Search it, open its albums and artists, and get its
+  best-sellers and new releases on Home, in the genres you pick. Give your Bandcamp name and your
+  collection and wishlist are in the library. Bandcamp songs are bought there, not downloaded.
+- **VK Music.** Sign in on VK's own page: My music and your VK playlists in the library, VK in search, and
+  its suggestions on Home. VK offers its music to no other app, so Noctorium uses your session the way VK's
+  web player does. VK's terms do not allow that, and VK may freeze an account it takes for automated; many
+  songs do not play outside Russia, and VK songs cannot be downloaded.
+- **Up next, from the same service.** When the queue is about to run out, what comes after it is lined up
+  underneath, from the service of the song that ends it: YouTube Music's radio, SoundCloud's related
+  tracks, more from a Bandcamp artist, VK's suggestions, Spotify's own autoplay. Play one, keep one or drop
+  it, or switch autoplay off. Close Noctorium and the queue is there next time, with the song you were in
+  picked up where you left it.
 - **In a terminal, and in a browser.** `noctorium` is the whole player in a terminal — covers drawn in it,
   synced lyrics, every theme, by keyboard or mouse, and it keeps itself up to date. In a browser, [noctorium-music.vercel.app](https://noctorium-music.vercel.app)
-  plays both services with nothing to install and no account, your likes and playlists kept in the browser.
+  plays YouTube Music and SoundCloud with nothing to install and no account, your likes and playlists kept
+  in the browser.
   With your own accounts, `noctorium web` serves the same player from your computer to every browser on
   your network: open the link, or scan its code with a phone, and the music plays out of that device, while
   your sessions never leave the computer.
@@ -46,6 +62,7 @@ other device and it is there.
   source right on the lyrics, and Noctorium remembers your pick.
 - **Scrobbling** to Last.fm and ListenBrainz, and what you are playing shown on Discord.
 - **Downloads.** Save songs for offline listening. On the desktop they are saved as MP3s with their covers.
+  Bandcamp and VK songs stay on their service.
 - **Out of the way when you want it.** On the desktop, keep the music playing in the tray when you close
   the window (the menu bar on a Mac), and start Noctorium with the computer, in its window or straight into the tray. On the phone, it
   keeps playing with the screen locked, even on phones that like to close apps.
@@ -54,17 +71,8 @@ other device and it is there.
   Accent colours, including one taken from the artwork. Liquid glass, several player bar layouts, six
   seek bar styles, and animations throughout that you can switch off. On the desktop, six layouts for the
   now playing screen, from one large centred cover to lyrics that fill the screen, with the cover as a
-  record that turns while it plays and the artwork blurred behind it if you like.
-
-## Goals
-
-What Noctorium is working towards next:
-
-- **Bandcamp support.** Bandcamp as a service of its own: search it, play its albums and tracks, and find
-  your Bandcamp collection in the library beside the others.
-- **Full Spotify support.** Spotify as a whole service, not only a library to read: search it, browse its
-  albums and artists, and like songs and edit playlists on Spotify itself, as Noctorium already does on
-  YouTube Music and SoundCloud.
+  record that turns while it plays and the artwork blurred behind it if you like. Playback speed from half
+  to double, an equaliser, a sleep timer that fades out, and in the terminal, keys of your own.
 
 ## Get it
 
@@ -141,5 +149,5 @@ cd Noctorium-Desktop && ./gradlew run
 ---
 
 <sub>Noctorium was called Spiceity before 0.4. It is an independent third-party client, free software
-under the GPL-3.0, and not affiliated with Google, YouTube, SoundCloud, Spotify, Last.fm, ListenBrainz or
-Discord.</sub>
+under the GPL-3.0, and not affiliated with Google, YouTube, SoundCloud, Bandcamp, Spotify, VK, Last.fm,
+ListenBrainz or Discord.</sub>
