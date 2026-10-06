@@ -67,12 +67,19 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   the window (the menu bar on a Mac), and start Noctorium with the computer, in its window or straight into the tray. On the phone, it
   keeps playing with the screen locked, even on phones that like to close apps.
 - **Make it yours.** Nineteen themes, among them Catppuccin, Nord, Dracula, Gruvbox, Rosé Pine, Tokyo
-  Night, three pure black crimson ones for OLED screens, and Windows 98 and XP. Or make one of your own.
-  Accent colours, including one taken from the artwork. Liquid glass, several player bar layouts, six
-  seek bar styles, and animations throughout that you can switch off. On the desktop, six layouts for the
-  now playing screen, from one large centred cover to lyrics that fill the screen, with the cover as a
-  record that turns while it plays and the artwork blurred behind it if you like. Playback speed from half
-  to double, an equaliser, a sleep timer that fades out, and in the terminal, keys of your own.
+  Night and three pure black crimson ones for OLED screens. Or make one of your own. Accent colours,
+  including one taken from the artwork. Liquid glass, and animations throughout that you can switch off.
+  Eleven seek bars, from a hairline to a row of bars like SoundCloud's, a glowing neon line or a ruler.
+  Ten player bar layouts on the desktop — a floating dock, an island that opens when you point at it, a
+  stereo's display, a taskbar — and nine on the phone. Eleven layouts for the now playing screen on the
+  desktop and six on the phone: the cover filling the screen, Cover flow through the queue, the record on a
+  turntable with its arm crossing as the song plays, the title set as a poster, lyrics that fill the
+  screen. Playback speed from half to double, an equaliser, a sleep timer that fades out, and in the
+  terminal, keys of your own.
+- **Windows 98 and XP, for real.** Pick 98 and Noctorium becomes that desktop: grey bevelled buttons,
+  navy title bars, scroll bars with arrows, Settings as a Control Panel, and Now playing in windows on the
+  teal desktop. Pick XP for Luna's blue title bars, Explorer's task pane and the green start button. Both
+  have a taskbar whose clock you can put away, on the desktop, the phone, in a terminal and in the browser.
 
 ## Get it
 
