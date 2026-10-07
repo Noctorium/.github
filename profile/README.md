@@ -8,7 +8,7 @@
 
 YouTube Music, SoundCloud, Bandcamp, Spotify and VK Music in one library: on Windows, macOS, Linux and Android, in a terminal, and in any browser.
 
-[Website](https://noctorium.vercel.app) · [Play in the browser](https://noctorium-music.vercel.app) · [Download](https://github.com/Noctorium/Noctorium-Installer/releases/latest) · [What's new](https://noctorium.vercel.app/#whats-new) · [Release notes](https://github.com/Noctorium/Noctorium-Installer/tree/main/notes)
+[Website](https://noctorium.vercel.app) · [Play in the browser](https://noctorium-music.vercel.app) · [Your statistics](https://noctorium-service.vercel.app) · [Download](https://github.com/Noctorium/Noctorium-Installer/releases/latest) · [What's new](https://noctorium.vercel.app/#whats-new) · [Release notes](https://github.com/Noctorium/Noctorium-Installer/tree/main/notes)
 
 [![Latest release](https://img.shields.io/github/v/release/Noctorium/Noctorium-Installer?label=release&color=b47cff)](https://github.com/Noctorium/Noctorium-Installer/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Noctorium/Noctorium-Installer/total?color=b47cff)](https://github.com/Noctorium/Noctorium-Installer/releases)
@@ -61,6 +61,11 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
 - **Lyrics**, synced where a synced version exists, from LRCLIB, Musixmatch, Genius and others. Switch
   source right on the lyrics, and Noctorium remembers your pick.
 - **Scrobbling** to Last.fm and ListenBrainz, and what you are playing shown on Discord.
+- **Your listening, counted.** Sign in to a Noctorium account, if you want one, and the player counts what
+  you play on your computer and your phone. Read it on [the statistics site](https://noctorium-service.vercel.app),
+  or in **Noctorium Stats**, an app of its own for Windows, macOS, Linux and Android: the last week, month or
+  year or all of it, your top songs and artists, how the services share your listening, the hours and days
+  you listen most, what you played last, and how many days in a row.
 - **Downloads.** Save songs for offline listening. On the desktop they are saved as MP3s with their covers.
   Bandcamp and VK songs stay on their service.
 - **Out of the way when you want it.** On the desktop, keep the music playing in the tray when you close
@@ -122,6 +127,7 @@ Or nothing at all: [play in the browser](https://noctorium-music.vercel.app). Ev
 | A terminal, and `noctorium web` | `noctorium-cli-<version>-windows-x64.zip`, `-linux-x64.tar.gz`, `-macos-arm64.tar.gz` or `-macos-x64.tar.gz` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or the one line above |
 | A browser | Nothing to download: [noctorium-music.vercel.app](https://noctorium-music.vercel.app) |
 | Android | The `.apk` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or [`Noctorium-Installer-android.apk`](https://github.com/Noctorium/Noctorium-Installer/releases/latest/download/Noctorium-Installer-android.apk) |
+| Noctorium Stats | `noctorium-stats-<version>-windows-x64.zip`, `-linux-x64.tar.gz`, `-macos-arm64.zip` or `-macos-x64.zip`, and `Noctorium-Stats-<version>.apk` for Android, from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or the installers |
 
 The installers — a window, or `noctorium-installer-cli` in a terminal — are small programs that install
 Noctorium, the Noctorium CLI or both. They fetch the right files for your machine, four pieces at a time
@@ -145,7 +151,9 @@ its certificate SHA-256 fingerprint is
 | [noctorium-web-player](https://github.com/Noctorium/noctorium-web-player) | The web player: the page `noctorium web` serves, and the hosted player at [noctorium-music.vercel.app](https://noctorium-music.vercel.app), whose music comes straight from the services to the browser. |
 | [Noctorium-Mobile](https://github.com/Noctorium/Noctorium-Mobile) | Android. Compose, Media3 for audio, NewPipeExtractor for the services, the system WebView for sign-in. |
 | [Noctorium-Installer](https://github.com/Noctorium/Noctorium-Installer) | The release pipeline, the releases themselves, the small installers and the one-line install scripts. This is what the in-app updater watches. |
-| [Noctorium-Service](https://github.com/Noctorium/Noctorium-Service) | The optional Noctorium account, which keeps your listening statistics. |
+| [Noctorium-Service](https://github.com/Noctorium/Noctorium-Service) | The optional Noctorium account, which keeps your listening statistics, and [the statistics site](https://noctorium-service.vercel.app) that shows them. |
+| [Noctorium-Stats-Desktop](https://github.com/Noctorium/Noctorium-Stats-Desktop) | Noctorium Stats for Windows, macOS and Linux, in Rust: your statistics from the account, in a window of their own. |
+| [Noctorium-Stats-Mobile](https://github.com/Noctorium/Noctorium-Stats-Mobile) | Noctorium Stats for Android, in Dart with Flutter. |
 | [Noctorium-Website](https://github.com/Noctorium/Noctorium-Website) | [noctorium.vercel.app](https://noctorium.vercel.app), which always offers the latest release. |
 
 To build the desktop app you need JDK 21:
