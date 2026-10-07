@@ -76,8 +76,8 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   stereo's display, a taskbar — and nine on the phone. Eleven layouts for the now playing screen on the
   desktop and six on the phone: the cover filling the screen, Cover flow through the queue, the record on a
   turntable with its arm crossing as the song plays, the title set as a poster, lyrics that fill the
-  screen. Playback speed from half to double, an equaliser, a sleep timer that fades out, and in the
-  terminal, keys of your own.
+  screen. Playback speed from half to double, on a button of its own beside the volume, an equaliser, a
+  sleep timer that fades out, and in the terminal, keys of your own.
 - **Windows 98 and XP, for real.** Pick 98 and Noctorium becomes that desktop: grey bevelled buttons,
   navy title bars, scroll bars with arrows, Settings as a Control Panel, and Now playing in windows on the
   teal desktop. Pick XP for Luna's blue title bars, Explorer's task pane and the green start button. Both
