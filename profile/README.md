@@ -47,7 +47,7 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
 - **Up next, from the same service.** When the queue is about to run out, what comes after it is lined up
   underneath, from the service of the song that ends it: YouTube Music's radio, SoundCloud's related
   tracks, more from a Bandcamp artist, VK's suggestions, Spotify's own autoplay. Play one, keep one or drop
-  it, or switch autoplay off. Close Noctorium and the queue is there next time, with the song you were in
+  it, or switch autoplay on and off right there in the queue. Close Noctorium and the queue is there next time, with the song you were in
   picked up where you left it.
 - **In a terminal, and in a browser.** `noctorium` is the whole player in a terminal — covers drawn in it,
   synced lyrics, every theme, by keyboard or mouse, and it keeps itself up to date. In a browser, [noctorium-music.vercel.app](https://noctorium-music.vercel.app)
@@ -65,7 +65,9 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   Bandcamp and VK songs stay on their service.
 - **Out of the way when you want it.** On the desktop, keep the music playing in the tray when you close
   the window (the menu bar on a Mac), and start Noctorium with the computer, in its window or straight into the tray. On the phone, it
-  keeps playing with the screen locked, even on phones that like to close apps.
+  keeps playing with the screen locked, even on phones that like to close apps, and a song that will not
+  start after the phone has slept starts itself again where it was. The queue is a button away on Now
+  playing.
 - **Make it yours.** Nineteen themes, among them Catppuccin, Nord, Dracula, Gruvbox, Rosé Pine, Tokyo
   Night and three pure black crimson ones for OLED screens. Or make one of your own. Accent colours,
   including one taken from the artwork. Liquid glass, and animations throughout that you can switch off.
