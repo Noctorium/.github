@@ -90,8 +90,8 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
 
 ## Get it
 
-In one line, from PowerShell on Windows or a terminal on macOS or Linux. It asks whether you want Noctorium, the
-Noctorium CLI or both, and checks what it downloads against the release's checksums:
+In one line, from PowerShell on Windows or a terminal on macOS or Linux. It asks which of Noctorium, the
+Noctorium CLI and Noctorium Stats you want, and checks what it downloads against the release's checksums:
 
 ```powershell
 irm https://noctorium.vercel.app/install | iex
@@ -126,12 +126,12 @@ Or nothing at all: [play in the browser](https://noctorium-music.vercel.app). Ev
 | Any Linux | The `.AppImage`, or the `.flatpak` (which carries its own mpv), from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest) |
 | A terminal, and `noctorium web` | `noctorium-cli-<version>-windows-x64.zip`, `-linux-x64.tar.gz`, `-macos-arm64.tar.gz` or `-macos-x64.tar.gz` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or the one line above |
 | A browser | Nothing to download: [noctorium-music.vercel.app](https://noctorium-music.vercel.app) |
-| Android | The `.apk` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or [`Noctorium-Installer-android.apk`](https://github.com/Noctorium/Noctorium-Installer/releases/latest/download/Noctorium-Installer-android.apk) |
+| Android | The `.apk` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or [`Noctorium-Installer-android.apk`](https://github.com/Noctorium/Noctorium-Installer/releases/latest/download/Noctorium-Installer-android.apk), which installs Noctorium or Noctorium Stats |
 | Noctorium Stats | `noctorium-stats-<version>-windows-x64.zip`, `-linux-x64.tar.gz`, `-macos-arm64.zip` or `-macos-x64.zip`, and `Noctorium-Stats-<version>.apk` for Android, from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or the installers |
 
 The installers — a window, or `noctorium-installer-cli` in a terminal — are small programs that install
-Noctorium, the Noctorium CLI or both. They fetch the right files for your machine, four pieces at a time
-and both at once, and check them against the published checksums before running anything. The desktop
+Noctorium, the Noctorium CLI, Noctorium Stats, or any of them together. They fetch the right files for your
+machine, four pieces at a time and all at once, and check them against the published checksums before running anything. The desktop
 packages carry everything they need, so nothing has to be installed first. After that, both update
 themselves. On Windows, Noctorium asks once for permission, shows a progress bar with nothing to click
 through, and opens again when it is done. The CLI checks once a day and takes over the new version after
