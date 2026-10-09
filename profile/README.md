@@ -8,11 +8,12 @@
 
 YouTube Music, SoundCloud, Bandcamp, Spotify and VK Music in one library: on Windows, macOS, Linux and Android, in a terminal, and in any browser.
 
-[Website](https://noctorium.vercel.app) · [Play in the browser](https://noctorium-music.vercel.app) · [Your statistics](https://noctorium-service.vercel.app) · [Download](https://github.com/Noctorium/Noctorium-Installer/releases/latest) · [What's new](https://noctorium.vercel.app/#whats-new) · [Release notes](https://github.com/Noctorium/Noctorium-Installer/tree/main/notes)
+[Website](https://noctorium.vercel.app) · [Play in the browser](https://noctorium-music.vercel.app) · [Your statistics](https://noctorium-service.vercel.app) · [Download](https://github.com/Noctorium/Noctorium-Installer/releases/latest) · [What's new](https://noctorium.vercel.app/#whats-new) · [Release notes](https://github.com/Noctorium/Noctorium-Installer/tree/main/notes) · [Discord](https://discord.gg/TfePG6mzhM)
 
 [![Latest release](https://img.shields.io/github/v/release/Noctorium/Noctorium-Installer?label=release&color=b47cff)](https://github.com/Noctorium/Noctorium-Installer/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Noctorium/Noctorium-Installer/total?color=b47cff)](https://github.com/Noctorium/Noctorium-Installer/releases)
 [![Licence](https://img.shields.io/badge/licence-GPL--3.0-b47cff)](https://github.com/Noctorium/Noctorium-Base/blob/main/LICENSE)
+[![Discord](https://img.shields.io/badge/discord-join-b47cff?logo=discord&logoColor=white)](https://discord.gg/TfePG6mzhM)
 
 </div>
 
@@ -142,6 +143,12 @@ you quit.
 Every release has a `SHA256SUMS.txt` beside its files. The APK is signed with Noctorium's release key, and
 its certificate SHA-256 fingerprint is
 `46:CF:8B:96:C4:37:49:7A:93:AF:76:2B:91:94:AD:11:09:5D:D6:4A:B6:AB:EA:E9:60:C0:A5:98:C5:63:49:ED`.
+
+## Found a problem, or have an idea?
+
+Tell us on [Noctorium's Discord](https://discord.gg/TfePG6mzhM): something that does not work, a service that
+stopped playing, or something you wish Noctorium did. Say which Noctorium it is — the desktop, the phone, the
+terminal or the browser — its version, and what happened. Issues here on GitHub are welcome too.
 
 ## The repositories
 

@@ -1,0 +1,7 @@
+# Shown on the "New issue" page of every Noctorium repository that has no issue templates of its own.
+# Issues on GitHub stay open; Discord is offered beside them for problems and ideas alike.
+blank_issues_enabled: true
+contact_links:
+  - name: Noctorium on Discord
+    url: https://discord.gg/TfePG6mzhM
+    about: Report a problem or suggest something, and talk it over with other listeners.
