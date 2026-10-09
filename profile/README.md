@@ -73,7 +73,7 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   keeps playing with the screen locked, even on phones that like to close apps, and a song that will not
   start after the phone has slept starts itself again where it was. The queue is a button away on Now
   playing.
-- **Make it yours.** Nineteen themes, among them Catppuccin, Nord, Dracula, Gruvbox, Rosé Pine, Tokyo
+- **Make it yours.** Twenty themes, among them Catppuccin, Nord, Dracula, Gruvbox, Rosé Pine, Tokyo
   Night and three pure black crimson ones for OLED screens. Or make one of your own. Accent colours,
   including one taken from the artwork. Liquid glass, and animations throughout that you can switch off.
   Eleven seek bars, from a hairline to a row of bars like SoundCloud's, a glowing neon line or a ruler.
@@ -85,8 +85,10 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   sleep timer that fades out, and in the terminal, keys of your own.
 - **Windows 98 and XP, for real.** Pick 98 and Noctorium becomes that desktop: grey bevelled buttons,
   navy title bars, scroll bars with arrows, Settings as a Control Panel, and Now playing in windows on the
-  teal desktop. Pick XP for Luna's blue title bars, Explorer's task pane and the green start button. Both
-  have a taskbar whose clock you can put away, on the desktop, the phone, in a terminal and in the browser.
+  teal desktop. Pick Noctorium 98 for the same 98 at night: violet title bars, black lists and fields, and a
+  night sky behind the windows. Pick XP for Luna's blue title bars, Explorer's task pane and the green start
+  button. Each has a taskbar whose clock you can put away, on the desktop, the phone, in a terminal and in
+  the browser.
 
 ## Get it
 
