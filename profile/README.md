@@ -49,8 +49,10 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
 - **Up next, from the same service.** When the queue is about to run out, what comes after it is lined up
   underneath, from the service of the song that ends it: YouTube Music's radio, SoundCloud's related
   tracks, more from a Bandcamp artist, VK's suggestions, Spotify's own autoplay. Play one, keep one or drop
-  it, or switch autoplay on and off right there in the queue. Close Noctorium and the queue is there next time, with the song you were in
-  picked up where you left it.
+  it, or switch autoplay on and off right there in the queue. A song picked on Home or from a search starts
+  autoplay from it, rather than queueing everything around it. Clear the queue down to the song playing with
+  one button, and Previous takes a song back to its start once it is five seconds in. Close Noctorium and
+  the queue is there next time, with the song you were in picked up where you left it.
 - **In a terminal, and in a browser.** `noctorium` is the whole player in a terminal — covers drawn in it,
   synced lyrics, every theme, by keyboard or mouse, and it keeps itself up to date. In a browser, [noctorium-music.vercel.app](https://noctorium-music.vercel.app)
   plays YouTube Music and SoundCloud with nothing to install and no account, your likes and playlists kept
@@ -59,7 +61,10 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   your network: open the link, or scan its code with a phone, and the music plays out of that device, while
   your sessions never leave the computer.
 - **Noctorium Connect.** Take the music off one device and carry on from the same second on another,
-  phone to desktop or back again, over your own network.
+  phone to desktop or back again, over your own network. The other device's remote control comes with it —
+  the song, a seek bar, play and pause, skip and volume — and your own buttons and media keys drive it
+  while it plays. Bring it back and the whole queue comes with it. Both signed in to the same Noctorium
+  account.
 - **Lyrics**, synced where a synced version exists, from LRCLIB, Musixmatch, Genius and others. Switch
   source right on the lyrics, and Noctorium remembers your pick.
 - **Scrobbling** to Last.fm and ListenBrainz, and what you are playing shown on Discord.
