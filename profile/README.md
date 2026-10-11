@@ -78,13 +78,21 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
 - **Make it yours.** Twenty themes, among them Catppuccin, Nord, Dracula, Gruvbox, Rosé Pine, Tokyo
   Night and three pure black crimson ones for OLED screens. Or make one of your own. Accent colours,
   including one taken from the artwork. Liquid glass, and animations throughout that you can switch off.
-  Eleven seek bars, from a hairline to a row of bars like SoundCloud's, a glowing neon line or a ruler.
-  Ten player bar layouts on the desktop — a floating dock, an island that opens when you point at it, a
-  stereo's display, a taskbar — and nine on the phone. Eleven layouts for the now playing screen on the
-  desktop and six on the phone: the cover filling the screen, Cover flow through the queue, the record on a
-  turntable with its arm crossing as the song plays, the title set as a poster, lyrics that fill the
-  screen. Playback speed from half to double, on a button of its own beside the volume, an equaliser, a
-  sleep timer that fades out, and in the terminal, keys of your own.
+  Icons in six sets, from Material's to thin Line strokes. Twelve seek bars, from a hairline to a row of
+  bars like SoundCloud's, a glowing neon line, a ruler or a slider. Eleven player bar layouts on the desktop
+  — a floating dock, an island that opens when you point at it, a stereo's display, a taskbar, a toolbar —
+  and ten on the phone. Twelve layouts for the now playing screen on the desktop and seven on the phone: the
+  cover filling the screen, Cover flow through the queue, the record on a turntable with its arm crossing as
+  the song plays, the title set as a poster, lyrics that fill the screen. Playback speed from half to
+  double, a volume booster up to 1000% behind a limiter, an equaliser, a sleep timer that fades out, and
+  Settings you can search: type "dark mode" or "louder" and it takes you there.
+- **A desktop music player of the old school, too.** Pick the Toolbar and the Playlist layout: a row of flat
+  buttons with play, pause and stop, the cover docked beside the queue as a table with the columns you
+  choose, an info bar with a visualiser drawn from the sound itself, and a status bar with the stream's
+  format and how far into the whole queue you are.
+- **From the keyboard.** On the desktop, Ctrl+F brings up a quick search over everything; start it with
+  `!ytm`, `!sc`, `!sp`, `!bc` or `!vk` to search one service. Every shortcut can be changed, and global ones
+  work from any program with Noctorium in the tray. In the terminal, keys of your own.
 - **Windows 98 and XP, for real.** Pick 98 and Noctorium becomes that desktop: grey bevelled buttons,
   navy title bars, scroll bars with arrows, Settings as a Control Panel, and Now playing in windows on the
   teal desktop. Pick Noctorium 98 for the same 98 at night: violet title bars, black lists and fields, and a
