@@ -90,7 +90,8 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   and ten on the phone. Twelve layouts for the now playing screen on the desktop and seven on the phone: the
   cover filling the screen, Cover flow through the queue, the record on a turntable with its arm crossing as
   the song plays, the title set as a poster, lyrics that fill the screen. Playback speed from half to
-  double, a volume booster up to 1000% behind a limiter, an equaliser, a sleep timer that fades out, and
+  double, a volume booster up to 1000% that makes even loud masters clearly louder at every step, an
+  equaliser, a sleep timer that fades out, and
   Settings you can search: type "dark mode" or "louder" and it takes you there.
 - **A desktop music player of the old school, too.** Pick the Toolbar and the Playlist layout: a row of flat
   buttons with play, pause and stop, the cover docked beside the queue as a table with the columns you
