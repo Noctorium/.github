@@ -60,11 +60,12 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   With your own accounts, `noctorium web` serves the same player from your computer to every browser on
   your network: open the link, or scan its code with a phone, and the music plays out of that device, while
   your sessions never leave the computer.
-- **Noctorium Connect.** Take the music off one device and carry on from the same second on another,
-  phone to desktop or back again, over your own network. The other device's remote control comes with it —
-  the song, a seek bar, play and pause, skip and volume — and your own buttons and media keys drive it
-  while it plays. Bring it back and the whole queue comes with it. Both signed in to the same Noctorium
-  account.
+- **Noctorium Connect.** A tab of its own on the computer and the phone: every device on your network,
+  what each is playing, and **Play here** or **Play on** any of them — the music moves at the same second,
+  with the whole queue, even between two devices you are not holding. While it plays elsewhere, your own
+  player is the remote: its song, seek bar, buttons and volume drive the device it is on, with "Playing on
+  Desk" along the player bar. Every device's tab stays in step within a second. Both signed in to the same
+  Noctorium account.
 - **Lyrics**, synced where a synced version exists, from LRCLIB, Musixmatch, Genius and others. Switch
   source right on the lyrics, and Noctorium remembers your pick.
 - **Scrobbling** to Last.fm and ListenBrainz, and what you are playing shown on Discord.
