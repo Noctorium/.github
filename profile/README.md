@@ -26,10 +26,11 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
 
 - **Every service side by side.** One search shows results from all of them, or from the one you pick.
   Playlists and liked songs from each sit in the same library, and a queue can mix songs from any of them.
-- **Your real accounts.** Likes, and playlists you can create, rename, make private or delete, all live on
-  the service. On YouTube Music you can also reorder your playlists and follow artists, and your plays go
-  into your history there, so its own recommendations learn from what you play here. A heart saves to
-  Liked Songs on Spotify, and to My music on VK.
+- **Your real accounts.** Likes, and playlists you can create, rename, make public or private — or unlisted,
+  with a description, on YouTube Music — or delete, all live on the service. On YouTube Music you can also
+  reorder your playlists and follow artists, and your plays go into your history there, so its own
+  recommendations learn from what you play here. A heart saves to Liked Songs on Spotify, and to My music
+  on VK.
 - **Signing in on their page.** Your password goes to the service's own page — Google's, SoundCloud's,
   Spotify's or VK's — and never to a form of ours. Only the session is kept, and it stays on your device.
   The desktop can also be signed in by scanning a QR code with the phone.
@@ -69,6 +70,9 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
 - **Lyrics**, synced where a synced version exists, from LRCLIB, Musixmatch, Genius and others. Switch
   source right on the lyrics, and Noctorium remembers your pick.
 - **Scrobbling** to Last.fm and ListenBrainz, and what you are playing shown on Discord.
+- **A history that stays home.** Every song you listen to, newest first and by day, on your profile on the
+  computer and the phone, to play again or clear. It is kept on the device it was played on and sent nowhere,
+  not even to your Noctorium account.
 - **Your listening, counted.** Sign in to a Noctorium account, if you want one, and the player counts what
   you play on your computer and your phone. Read it on [the statistics site](https://noctorium-service.vercel.app),
   or in **Noctorium Stats**, an app of its own for Windows, macOS, Linux and Android: the last week, month or
@@ -84,7 +88,8 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
 - **Make it yours.** Twenty themes, among them Catppuccin, Nord, Dracula, Gruvbox, Rosé Pine, Tokyo
   Night and three pure black crimson ones for OLED screens. Or make one of your own. Accent colours,
   including one taken from the artwork. Liquid glass, and animations throughout that you can switch off.
-  Icons in six sets, from Material's to thin Line strokes. Twelve seek bars, from a hairline to a row of
+  Icons in six sets, from Material's to thin Line strokes, and each service's own logo on the badge that says
+  where a song comes from, or its letters if you prefer. Twelve seek bars, from a hairline to a row of
   bars like SoundCloud's, a glowing neon line, a ruler or a slider. Eleven player bar layouts on the desktop
   — a floating dock, an island that opens when you point at it, a stereo's display, a taskbar, a toolbar —
   and ten on the phone. Twelve layouts for the now playing screen on the desktop and seven on the phone: the
