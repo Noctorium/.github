@@ -27,10 +27,10 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
 - **Every service side by side.** One search shows results from all of them, or from the one you pick.
   Playlists and liked songs from each sit in the same library, and a queue can mix songs from any of them.
 - **Your real accounts.** Likes, and playlists you can create, rename, make public or private — or unlisted,
-  with a description, on YouTube Music — or delete, all live on the service. On YouTube Music you can also
-  reorder your playlists and follow artists, and your plays go into your history there, so its own
-  recommendations learn from what you play here. A heart saves to Liked Songs on Spotify, and to My music
-  on VK.
+  with a description, on YouTube Music — or delete, from the computer or the phone, all live on the service.
+  On YouTube Music you can also reorder your playlists and follow artists, and your plays go into your
+  history there, so its own recommendations learn from what you play here. A heart saves to Liked Songs on
+  Spotify, and to My music on VK.
 - **Signing in on their page.** Your password goes to the service's own page — Google's, SoundCloud's,
   Spotify's or VK's — and never to a form of ours. Only the session is kept, and it stays on your device.
   The desktop can also be signed in by scanning a QR code with the phone.
