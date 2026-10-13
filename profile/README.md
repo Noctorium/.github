@@ -90,9 +90,9 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   including one taken from the artwork. Liquid glass, and animations throughout that you can switch off.
   Icons in six sets, from Material's to thin Line strokes, and each service's own logo on the badge that says
   where a song comes from, or its letters if you prefer. Twelve seek bars, from a hairline to a row of
-  bars like SoundCloud's, a glowing neon line, a ruler or a slider. Eleven player bar layouts on the desktop
-  — a floating dock, an island that opens when you point at it, a stereo's display, a taskbar, a toolbar —
-  and ten on the phone. Twelve layouts for the now playing screen on the desktop and seven on the phone: the
+  bars like SoundCloud's, a glowing neon line, a ruler or a slider. Twelve player bar layouts on the desktop
+  — a floating dock, an island that opens when you point at it, a stereo's display, a taskbar, two toolbars —
+  and eleven on the phone. Twelve layouts for the now playing screen on the desktop and seven on the phone: the
   cover filling the screen, Cover flow through the queue, the record on a turntable with its arm crossing as
   the song plays, the title set as a poster, lyrics that fill the screen. Playback speed from half to
   double, a volume booster up to 1000% that makes even loud masters clearly louder at every step, the
@@ -101,7 +101,9 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
 - **A desktop music player of the old school, too.** Pick the Toolbar and the Playlist layout: a row of flat
   buttons with play, pause and stop, the cover docked beside the queue as a table with the columns you
   choose, an info bar with a visualiser drawn from the sound itself, and a status bar with the stream's
-  format and how far into the whole queue you are.
+  format and how far into the whole queue you are. Or Toolbar 2: the same flat buttons with play and pause
+  as one, and like, lyrics, the queue, the sleep timer, Connect and the speed along the row as well — on the
+  computer, the phone, in a terminal and in the browser.
 - **From the keyboard.** On the desktop, Ctrl+F brings up a quick search over everything; start it with
   `!ytm`, `!sc`, `!sp`, `!bc` or `!vk` to search one service. Every shortcut can be changed, and global ones
   work from any program with Noctorium in the tray. In the terminal, keys of your own.
