@@ -66,7 +66,8 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   with the whole queue, even between two devices you are not holding. While it plays elsewhere, your own
   player is the remote: its song, seek bar, buttons and volume drive the device it is on, with "Playing on
   Desk" along the player bar. Every device's tab stays in step within a second. Both signed in to the same
-  Noctorium account.
+  Noctorium account. A switch at the top of the tab turns it off, and then the device neither looks for your
+  others nor can be seen by them.
 - **Lyrics**, synced where a synced version exists, from LRCLIB, Musixmatch, Genius and others. Switch
   source right on the lyrics, and Noctorium remembers your pick.
 - **Scrobbling** to Last.fm and ListenBrainz, and what you are playing shown on Discord.
@@ -100,10 +101,10 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   "dark mode" or "louder" and it takes you there.
 - **A desktop music player of the old school, too.** Pick the Toolbar and the Playlist layout: a row of flat
   buttons with play, pause and stop, the cover docked beside the queue as a table with the columns you
-  choose, an info bar with a visualiser drawn from the sound itself, and a status bar with the stream's
-  format and how far into the whole queue you are. Or Toolbar 2: the same flat buttons with play and pause
-  as one, and like, lyrics, the queue, the sleep timer, Connect and the speed along the row as well — on the
-  computer, the phone, in a terminal and in the browser.
+  choose and the lyrics a tab away, an info bar with a visualiser drawn from the sound itself, and a status
+  bar with the stream's format and how far into the whole queue you are. Or Toolbar 2: the same flat buttons
+  with play and pause as one, and like, lyrics, the queue, the sleep timer, Connect and the speed along the
+  row as well — on the computer, the phone, in a terminal and in the browser.
 - **From the keyboard.** On the desktop, Ctrl+F brings up a quick search over everything; start it with
   `!ytm`, `!sc`, `!sp`, `!bc` or `!vk` to search one service. Every shortcut can be changed, and global ones
   work from any program with Noctorium in the tray. In the terminal, keys of your own.
