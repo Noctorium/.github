@@ -6,7 +6,7 @@
 
 **All your music. One player.**
 
-YouTube Music, SoundCloud, Bandcamp, Spotify and VK Music in one library: on Windows, macOS, Linux and Android, in a terminal, and in any browser.
+YouTube Music, SoundCloud, Bandcamp, Spotify, VK Music, Apple Music, Deezer and Tidal in one library: on Windows, macOS, Linux and Android, in a terminal, and in any browser.
 
 [Website](https://noctorium.vercel.app) · [Play in the browser](https://noctorium-music.vercel.app) · [Your statistics](https://noctorium-service.vercel.app) · [Download](https://github.com/Noctorium/Noctorium-Installer/releases/latest) · [What's new](https://noctorium.vercel.app/#whats-new) · [Release notes](https://github.com/Noctorium/Noctorium-Installer/tree/main/notes) · [Discord](https://discord.gg/TfePG6mzhM) · [Telegram](https://t.me/noctoriumismusic)
 
@@ -32,7 +32,7 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   history there, so its own recommendations learn from what you play here. A heart saves to Liked Songs on
   Spotify, and to My music on VK.
 - **Signing in on their page.** Your password goes to the service's own page — Google's, SoundCloud's,
-  Spotify's or VK's — and never to a form of ours. Only the session is kept, and it stays on your device.
+  Spotify's, VK's, Apple's or Tidal's — and never to a form of ours. Only the session is kept, and it stays on your device.
   The desktop can also be signed in by scanning a QR code with the phone.
 - **Spotify, two ways.** With any account: your playlists and Liked Songs in the library, Spotify in search
   with its albums and artists, your top songs and what you played lately on Home. Spotify serves no audio
@@ -47,6 +47,14 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   its suggestions on Home. VK offers its music to no other app, so Noctorium uses your session the way VK's
   web player does. VK's terms do not allow that, and VK may freeze an account it takes for automated; many
   songs do not play outside Russia, and VK songs cannot be downloaded.
+- **Apple Music, Deezer and Tidal.** Search them, open their albums, artists and playlists, paste their
+  links, and see your library from them. Deezer needs only your public profile; Apple Music is signed in on
+  Apple's own page, reached the way its web player is, which its terms do not allow; Tidal needs a free
+  developer app of your own, and Settings walks you through making one. None of them lets another app play
+  its music, so, as with Spotify, each song is matched to the same recording on YouTube Music when it plays.
+- **Beta, and said so.** Every service but YouTube Music, YouTube and SoundCloud is in beta, and its
+  settings say so above the sign-in: it may not work as it should, and there is a small chance it gets your
+  account blocked. Use those at your own risk.
 - **Up next, from the same service.** When the queue is about to run out, what comes after it is lined up
   underneath, from the service of the song that ends it: YouTube Music's radio, SoundCloud's related
   tracks, more from a Bandcamp artist, VK's suggestions, Spotify's own autoplay. Play one, keep one or drop
@@ -70,7 +78,8 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   others nor can be seen by them.
 - **Lyrics**, synced where a synced version exists, from LRCLIB, Musixmatch, Genius and others. Switch
   source right on the lyrics, and Noctorium remembers your pick.
-- **Scrobbling** to Last.fm and ListenBrainz, and what you are playing shown on Discord.
+- **Scrobbling** to Last.fm, Libre.fm and ListenBrainz, and what you are playing shown on Discord. While a
+  sign-in waits for you, its link is there to copy into any browser.
 - **A history that stays home.** Every song you listen to, newest first and by day, on your profile on the
   computer and the phone, to play again or clear. It is kept on the device it was played on and sent nowhere,
   not even to your Noctorium account.
@@ -106,7 +115,7 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   with play and pause as one, and like, lyrics, the queue, the sleep timer, Connect and the speed along the
   row as well — on the computer, the phone, in a terminal and in the browser.
 - **From the keyboard.** On the desktop, Ctrl+F brings up a quick search over everything; start it with
-  `!ytm`, `!sc`, `!sp`, `!bc` or `!vk` to search one service. Every shortcut can be changed, and global ones
+  `!ytm`, `!sc`, `!sp`, `!bc`, `!vk`, `!am`, `!dz` or `!td` to search one service. Every shortcut can be changed, and global ones
   work from any program with Noctorium in the tray. In the terminal, keys of your own.
 - **Windows 98 and XP, for real.** Pick 98 and Noctorium becomes that desktop: grey bevelled buttons,
   navy title bars, scroll bars with arrows, Settings as a Control Panel, and Now playing in windows on the
@@ -158,7 +167,8 @@ Or nothing at all: [play in the browser](https://noctorium-music.vercel.app). Ev
 
 The installers — a window, or `noctorium-installer-cli` in a terminal — are small programs that install
 Noctorium, the Noctorium CLI, Noctorium Stats, or any of them together. They fetch the right files for your
-machine, four pieces at a time and all at once, and check them against the published checksums before running anything. The desktop
+machine, sixteen pieces at a time and all at once, and check them against the published checksums as they
+arrive, before running anything. The desktop
 packages carry everything they need, so nothing has to be installed first. After that, both update
 themselves. On Windows, Noctorium asks once for permission, shows a progress bar with nothing to click
 through, and opens again when it is done. The CLI checks once a day and takes over the new version after
@@ -201,5 +211,5 @@ cd Noctorium-Desktop && ./gradlew run
 ---
 
 <sub>Noctorium was called Spiceity before 0.4. It is an independent third-party client, free software
-under the GPL-3.0, and not affiliated with Google, YouTube, SoundCloud, Bandcamp, Spotify, VK, Last.fm,
-ListenBrainz or Discord.</sub>
+under the GPL-3.0, and not affiliated with Google, YouTube, SoundCloud, Bandcamp, Spotify, VK, Apple,
+Deezer, Tidal, Last.fm, Libre.fm, ListenBrainz or Discord.</sub>
