@@ -34,12 +34,15 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
 - **Signing in on their page.** Your password goes to the service's own page — Google's, SoundCloud's,
   Spotify's, VK's, Apple's or Tidal's — and never to a form of ours. Only the session is kept, and it stays on your device.
   The desktop can also be signed in by scanning a QR code with the phone.
-- **Spotify, two ways.** With any account: your playlists and Liked Songs in the library, Spotify in search
-  with its albums and artists, your top songs and what you played lately on Home. Spotify serves no audio
-  to other players, so each song is matched to the same recording on YouTube Music when it plays. With
-  Premium, Spotify songs play on Spotify itself instead, in your own Spotify app — on the computer, the
+- **Spotify, with or without a sign-in.** Signed in: your playlists and Liked Songs in the library, Spotify
+  in search with its albums and artists, your top songs and what you played lately on Home. Spotify serves
+  no audio to other players, so each song is matched to the same recording on YouTube Music when it plays.
+  With Premium, Spotify songs play on Spotify itself instead, in your own Spotify app — on the computer, the
   phone or a speaker — while Noctorium tells it what to play and follows along. Noctorium never decodes
-  Spotify's audio.
+  Spotify's audio. Spotify answers that sign-in only while the owner of Noctorium's Spotify app has Premium,
+  so two ways need none: follow public playlists by their links, kept in step with Spotify (only their
+  first 100 songs, as that is all Spotify's public page shows), and import every playlist you made and
+  your Liked Songs from Spotify's own data download.
 - **Bandcamp, with nothing to sign in to.** Search it, open its albums and artists, and get its
   best-sellers and new releases on Home, in the genres you pick. Give your Bandcamp name and your
   collection and wishlist are in the library. Bandcamp songs are bought there, not downloaded.
