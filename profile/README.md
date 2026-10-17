@@ -98,8 +98,14 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   keeps playing with the screen locked, even on phones that like to close apps, and a song that will not
   start after the phone has slept starts itself again where it was. The queue is a button away on Now
   playing.
-- **Make it yours.** Twenty themes, among them Catppuccin, Nord, Dracula, Gruvbox, Rosé Pine, Tokyo
-  Night and three pure black crimson ones for OLED screens. Or make one of your own. Accent colours,
+- **Stream widgets.** On the desktop, show what is playing over your stream in OBS or Streamlabs: switch
+  them on, copy a look's address into a Browser source, and the song, its cover and how far in it is appear
+  on stream. Seven looks — Glass, Minimal, a turning Vinyl, Neon, a Ticker for the edge of the screen, a tall
+  Afterglow card and a Windows 98 window — several at once if you like. Off until you switch them on, and
+  only your own computer can open them unless you allow your network.
+- **Make it yours.** Twenty-four themes, among them Catppuccin, Nord, Dracula, Gruvbox, Rosé Pine, Tokyo
+  Night, three pure black crimson ones for OLED screens, and four Glow themes: near-black pages under a
+  soft light, Afterglow's in the colour of the cover playing. Or make one of your own. Accent colours,
   including one taken from the artwork. Liquid glass, and animations throughout that you can switch off.
   Icons in six sets, from Material's to thin Line strokes, and each service's own logo on the badge that says
   where a song comes from, or its letters if you prefer. Twelve seek bars, from a hairline to a row of
