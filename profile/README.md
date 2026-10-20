@@ -99,7 +99,8 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   start after the phone has slept starts itself again where it was. Turn on Keep Noctorium alive and it
   stays running in the background, and comes back by itself when the phone stops it anyway, carrying on with
   the song where it was, with a checklist of what that phone needs. And if the phone restricts Noctorium
-  in the background, so that switching apps would stop the music, it says so and takes you to the switch. The queue is a button away on Now playing.
+  in the background, so that switching apps would stop the music, it says so and takes you to the switch. The song, its length and how far in it is are on the lock screen,
+  in the notification and in OnePlus's Live Alerts bubble. The queue is a button away on Now playing.
 - **Stream widgets.** On the desktop, show what is playing over your stream in OBS or Streamlabs: switch
   them on, copy a look's address into a Browser source, and the song, its cover and how far in it is appear
   on stream. Seven looks — Glass, Minimal, a turning Vinyl, Neon, a Ticker for the edge of the screen, a tall
