@@ -91,6 +91,11 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   or in **Noctorium Stats**, an app of its own for Windows, macOS, Linux and Android: the last week, month or
   year or all of it, your top songs and artists, how the services share your listening, the hours and days
   you listen most, what you played last, and how many days in a row.
+- **Which song is this?** **Noctorium Song Find**, an app of its own for Windows, macOS, Linux and
+  Android, listens and tells you — through the microphone, or straight from what the computer or phone is
+  playing, with nothing held up to a speaker. It asks Shazam, AudD, ACRCloud and (on the desktop) AcoustID,
+  links the song on Spotify, YouTube Music, Apple Music, Deezer and SoundCloud, and keeps a history of what it
+  found on the device only.
 - **Downloads.** Save songs for offline listening. On the desktop they are saved as MP3s with their covers.
   Bandcamp and VK songs stay on their service.
 - **Out of the way when you want it.** On the desktop, keep the music playing in the tray when you close
@@ -139,7 +144,8 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
 ## Get it
 
 In one line, from PowerShell on Windows or a terminal on macOS or Linux. It asks which of Noctorium, the
-Noctorium CLI and Noctorium Stats you want, and checks what it downloads against the release's checksums:
+Noctorium CLI, Noctorium Stats, Noctorium Rust and Noctorium Song Find you want, and checks what it downloads
+against the release's checksums:
 
 ```powershell
 irm https://noctorium.vercel.app/install | iex
@@ -174,17 +180,36 @@ Or nothing at all: [play in the browser](https://noctorium-music.vercel.app). Ev
 | Any Linux | The `.AppImage`, or the `.flatpak` (which carries its own mpv), from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest) |
 | A terminal, and `noctorium web` | `noctorium-cli-<version>-windows-x64.zip`, `-linux-x64.tar.gz`, `-macos-arm64.tar.gz` or `-macos-x64.tar.gz` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or the one line above |
 | A browser | Nothing to download: [noctorium-music.vercel.app](https://noctorium-music.vercel.app) |
-| Android | The `.apk` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or [`Noctorium-Installer-android.apk`](https://github.com/Noctorium/Noctorium-Installer/releases/latest/download/Noctorium-Installer-android.apk), which installs Noctorium or Noctorium Stats |
+| Android | The `.apk` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or [`Noctorium-Installer-android.apk`](https://github.com/Noctorium/Noctorium-Installer/releases/latest/download/Noctorium-Installer-android.apk), which installs Noctorium, Noctorium Stats or Noctorium Song Find, or [Obtainium](#on-android-with-obtainium) |
 | Noctorium Stats | `noctorium-stats-<version>-windows-x64.zip`, `-linux-x64.tar.gz`, `-macos-arm64.zip` or `-macos-x64.zip`, and `Noctorium-Stats-<version>.apk` for Android, from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or the installers |
+| Noctorium Song Find | `noctorium-song-find-<version>-windows-x64.zip`, `-linux-x64.tar.gz`, `-macos-arm64.zip` or `-macos-x64.zip`, and `Noctorium-Song-Find-<version>.apk` for Android, from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or the installers |
 
 The installers — a window, or `noctorium-installer-cli` in a terminal — are small programs that install
-Noctorium, the Noctorium CLI, Noctorium Stats, or any of them together. They fetch the right files for your
+Noctorium, the Noctorium CLI, Noctorium Stats, Noctorium Rust, Noctorium Song Find, or any of them together. They fetch the right files for your
 machine, sixteen pieces at a time and all at once, and check them against the published checksums as they
 arrive, before running anything. The desktop
 packages carry everything they need, so nothing has to be installed first. After that, both update
 themselves. On Windows, Noctorium asks once for permission, shows a progress bar with nothing to click
 through, and opens again when it is done. The CLI checks once a day and takes over the new version after
 you quit.
+
+### On Android, with Obtainium
+
+[Obtainium](https://github.com/ImranR98/Obtainium) installs and updates Android apps straight from their
+releases, and all three Noctorium apps work with it. Tap a button on the phone with Obtainium installed, and
+it opens with the app set up:
+
+| | |
+| --- | --- |
+| **Noctorium** | <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22app.noctorium%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2FNoctorium%2FNoctorium-Installer%22%2C%22author%22%3A%22Noctorium%22%2C%22name%22%3A%22Noctorium%22%2C%22additionalSettings%22%3A%22%7B%5C%22apkFilterRegEx%5C%22%3A%5C%22%5ENoctorium-%5B0-9%5D.%2A%5B.%5Dapk%24%5C%22%7D%22%7D"><img src="badge_obtainium.png" alt="Get it on Obtainium" height="48"></a> |
+| **Noctorium Stats** | <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22app.noctorium.stats%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2FNoctorium%2FNoctorium-Installer%22%2C%22author%22%3A%22Noctorium%22%2C%22name%22%3A%22Noctorium%20Stats%22%2C%22additionalSettings%22%3A%22%7B%5C%22apkFilterRegEx%5C%22%3A%5C%22%5ENoctorium-Stats-%5B0-9%5D.%2A%5B.%5Dapk%24%5C%22%7D%22%7D"><img src="badge_obtainium.png" alt="Get it on Obtainium" height="48"></a> |
+| **Noctorium Song Find** | <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22app.noctorium.songfind%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2FNoctorium%2FNoctorium-Installer%22%2C%22author%22%3A%22Noctorium%22%2C%22name%22%3A%22Noctorium%20Song%20Find%22%2C%22additionalSettings%22%3A%22%7B%5C%22apkFilterRegEx%5C%22%3A%5C%22%5ENoctorium-Song-Find-%5B0-9%5D.%2A%5B.%5Dapk%24%5C%22%7D%22%7D"><img src="badge_obtainium.png" alt="Get it on Obtainium" height="48"></a> |
+
+Or add it by hand: **Add app**, the source `https://github.com/Noctorium/Noctorium-Installer`, and under
+*Filter APKs by regular expression* `^Noctorium-[0-9].*[.]apk$` for Noctorium,
+`^Noctorium-Stats-[0-9].*[.]apk$` for Noctorium Stats or `^Noctorium-Song-Find-[0-9].*[.]apk$` for
+Noctorium Song Find — every release carries all three APKs, and the filter picks the right one. Obtainium
+checks them against nothing but the release itself, so the certificate fingerprint below is how to be sure.
 
 Every release has a `SHA256SUMS.txt` beside its files. The APK is signed with Noctorium's release key, and
 its certificate SHA-256 fingerprint is
@@ -211,6 +236,8 @@ To hear about each new release as it comes out, follow [Noctorium on Telegram](h
 | [Noctorium-Service](https://github.com/Noctorium/Noctorium-Service) | The optional Noctorium account, which keeps your listening statistics, and [the statistics site](https://noctorium-service.vercel.app) that shows them. |
 | [Noctorium-Stats-Desktop](https://github.com/Noctorium/Noctorium-Stats-Desktop) | Noctorium Stats for Windows, macOS and Linux, in Rust: your statistics from the account, in a window of their own. |
 | [Noctorium-Stats-Mobile](https://github.com/Noctorium/Noctorium-Stats-Mobile) | Noctorium Stats for Android, in Dart with Flutter. |
+| [Noctorium-song-find-desktop-rust](https://github.com/Noctorium/Noctorium-song-find-desktop-rust) | Noctorium Song Find for Windows, macOS and Linux, in Rust: which song is playing, from the microphone or the computer's own sound. |
+| [Noctorium-song-find-mobile-dart](https://github.com/Noctorium/Noctorium-song-find-mobile-dart) | Noctorium Song Find for Android, in Dart with Flutter: from the microphone or what the phone is playing. |
 | [Noctorium-Website](https://github.com/Noctorium/Noctorium-Website) | [noctorium.vercel.app](https://noctorium.vercel.app), which always offers the latest release. |
 
 To build the desktop app you need JDK 21:
