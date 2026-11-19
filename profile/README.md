@@ -26,6 +26,16 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
 
 - **Every service side by side.** One search shows results from all of them, or from the one you pick.
   Playlists and liked songs from each sit in the same library, and a queue can mix songs from any of them.
+  Search for music, radio stations, artists or playlists.
+- **Artist pages that are whole pages.** A banner, their popular songs, then albums, singles, videos,
+  playlists and artists like them, from YouTube Music and SoundCloud. In the library, your liked songs come
+  first, in a card of their own.
+- **Pull down to search.** On the phone, pull down at the top of Home and the search bar appears, with two
+  menus beside it: which service — all of them at once, YouTube Music, SoundCloud and the rest — and what to
+  look for: Music, Radio, Artists or Playlists.
+- **Set up in a minute, or not at all.** The first time Noctorium opens, on every platform, a few quick
+  steps: a theme, where to search, autoplay, and your accounts. Skip it whenever you like. It shows once —
+  not after an update or a restart, and never to anyone who used Noctorium before it.
 - **Your real accounts.** Likes, and playlists you can create, rename, make public or private — or unlisted,
   with a description, on YouTube Music — or delete, from the computer or the phone, all live on the service.
   On YouTube Music you can also reorder your playlists and follow artists, and your plays go into your
@@ -95,7 +105,8 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   Android, listens and tells you — through the microphone, or straight from what the computer or phone is
   playing, with nothing held up to a speaker. It asks Shazam, AudD, ACRCloud and (on the desktop) AcoustID,
   links the song on Spotify, YouTube Music, Apple Music, Deezer and SoundCloud, and keeps a history of what it
-  found on the device only.
+  found on the device only. On the phone, its notifications follow along: a countdown while it listens, the
+  seconds it has been looking, then found or not found.
 - **In the car and on the TV.** The Android app is Noctorium for **Android Auto** too — Home, your library,
   the queue, radio, search and voice on the car's screen — and for **Android TV and Google TV**, on the TV's home
   screen with pages made for the remote. One APK, one player: pick a song in the car and the phone shows it.
