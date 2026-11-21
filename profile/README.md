@@ -8,7 +8,7 @@
 
 YouTube Music, SoundCloud, Bandcamp, Spotify, VK Music, Apple Music, Deezer and Tidal in one library: on Windows, macOS, Linux, Android and the iPhone — in the car with Android Auto and on the TV with Android TV — in a terminal, and in any browser.
 
-[Website](https://noctorium.xyz) · [Play in the browser](https://noctorium-music.vercel.app) · [Your statistics](https://service.noctorium.xyz) · [Download](https://github.com/Noctorium/Noctorium-Installer/releases/latest) · [What's new](https://noctorium.xyz/#whats-new) · [Release notes](https://github.com/Noctorium/Noctorium-Installer/tree/main/notes) · [Discord](https://discord.gg/TfePG6mzhM) · [Telegram](https://t.me/noctoriumismusic)
+[Website](https://noctorium.xyz) · [Play in the browser](https://music.noctorium.xyz) · [Your statistics](https://service.noctorium.xyz) · [Download](https://github.com/Noctorium/Noctorium-Installer/releases/latest) · [What's new](https://noctorium.xyz/#whats-new) · [Release notes](https://github.com/Noctorium/Noctorium-Installer/tree/main/notes) · [Discord](https://discord.gg/TfePG6mzhM) · [Telegram](https://t.me/noctoriumismusic)
 
 [![Latest release](https://img.shields.io/github/v/release/Noctorium/Noctorium-Installer?label=release&color=b47cff)](https://github.com/Noctorium/Noctorium-Installer/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Noctorium/Noctorium-Installer/total?color=b47cff)](https://github.com/Noctorium/Noctorium-Installer/releases)
@@ -76,7 +76,7 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   one button, and Previous takes a song back to its start once it is five seconds in. Close Noctorium and
   the queue is there next time, with the song you were in picked up where you left it.
 - **In a terminal, and in a browser.** `noctorium` is the whole player in a terminal — covers drawn in it,
-  synced lyrics, every theme, by keyboard or mouse, and it keeps itself up to date. In a browser, [noctorium-music.vercel.app](https://noctorium-music.vercel.app)
+  synced lyrics, every theme, by keyboard or mouse, and it keeps itself up to date. In a browser, [music.noctorium.xyz](https://music.noctorium.xyz)
   plays YouTube Music and SoundCloud with nothing to install and no account, your likes and playlists kept
   in the browser.
   With your own accounts, `noctorium web` serves the same player from your computer to every browser on
@@ -188,7 +188,7 @@ curl -fsSL https://raw.githubusercontent.com/Noctorium/Noctorium-Installer/main/
 
 </details>
 
-Or nothing at all: [play in the browser](https://noctorium-music.vercel.app). Every file is also here:
+Or nothing at all: [play in the browser](https://music.noctorium.xyz). Every file is also here:
 
 | Platform | Download |
 | --- | --- |
@@ -199,7 +199,7 @@ Or nothing at all: [play in the browser](https://noctorium-music.vercel.app). Ev
 | Arch, Manjaro, EndeavourOS | The `.pkg.tar.zst` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or the same Linux installer. From a terminal it is `noctorium-desktop`; `noctorium` is the CLI |
 | Any Linux | The `.AppImage`, or the `.flatpak` (which carries its own mpv), from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest) |
 | A terminal, and `noctorium web` | `noctorium-cli-<version>-windows-x64.zip`, `-linux-x64.tar.gz`, `-macos-arm64.tar.gz` or `-macos-x64.tar.gz` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or the one line above |
-| A browser | Nothing to download: [noctorium-music.vercel.app](https://noctorium-music.vercel.app) |
+| A browser | Nothing to download: [music.noctorium.xyz](https://music.noctorium.xyz) |
 | Android | The `.apk` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or [`Noctorium-Installer-android.apk`](https://github.com/Noctorium/Noctorium-Installer/releases/latest/download/Noctorium-Installer-android.apk), which installs Noctorium, Noctorium Stats or Noctorium Song Find on a phone or a TV, or [Obtainium](#on-android-with-obtainium) |
 | Noctorium Lite | `Noctorium-Lite-<version>.apk` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or [Obtainium](#on-android-with-obtainium) |
 | iPhone and iPad | `Noctorium-<version>-ios.ipa` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), installed with [AltStore](https://altstore.io) or [SideStore](https://sidestore.io), which sign it with your own Apple ID |
@@ -254,7 +254,7 @@ To hear about each new release as it comes out, follow [Noctorium on Telegram](h
 | [Noctorium-Base](https://github.com/Noctorium/Noctorium-Base) | The shared Kotlin core: library, queue, providers, playlists, settings, scrobbling, lyrics, Connect. Every Noctorium is built on it, so they behave the same rather than nearly the same. Beside it, `jvm`: yt-dlp, mpv and the rest a computer shares. |
 | [Noctorium-Desktop](https://github.com/Noctorium/Noctorium-Desktop) | Windows, macOS and Linux. Compose Desktop, mpv for audio, yt-dlp for the services, an embedded Chromium for sign-in. |
 | [Noctorium-cli](https://github.com/Noctorium/Noctorium-cli) | The terminal player, and `noctorium web`, which serves the web player to the browsers in the house. |
-| [noctorium-web-player](https://github.com/Noctorium/noctorium-web-player) | The web player: the page `noctorium web` serves, and the hosted player at [noctorium-music.vercel.app](https://noctorium-music.vercel.app), whose music comes straight from the services to the browser. |
+| [noctorium-web-player](https://github.com/Noctorium/noctorium-web-player) | The web player: the page `noctorium web` serves, and the hosted player at [music.noctorium.xyz](https://music.noctorium.xyz), whose music comes straight from the services to the browser. |
 | [Noctorium-Mobile](https://github.com/Noctorium/Noctorium-Mobile) | Android. Compose, Media3 for audio, NewPipeExtractor for the services, the system WebView for sign-in. Builds in Android Auto and Android TV. |
 | [Noctorium-Android-Auto](https://github.com/Noctorium/Noctorium-Android-Auto) | Noctorium for Android Auto: the car's menu, search and voice, over the phone app's Media3 session. |
 | [Noctorium-Android-TV](https://github.com/Noctorium/Noctorium-Android-TV) | Noctorium for Android TV and Google TV: Compose for TV pages for the remote, over the phone app's state. |
