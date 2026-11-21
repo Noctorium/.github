@@ -96,6 +96,11 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
 - **A history that stays home.** Every song you listen to, newest first and by day, on your profile on the
   computer and the phone, to play again or clear. It is kept on the device it was played on and sent nowhere,
   not even to your Noctorium account.
+- **Your status on Discord and Telegram, with no computer needed.** Connect Discord and Telegram on your
+  [Noctorium account](https://service.noctorium.xyz), and whatever device you play on — the phone, the TV, a
+  terminal — your Discord status shows "Listening to Noctorium" with the song, its cover and how far in it is, and
+  your Telegram bio shows "🎵 Title — Artist", going back to your own bio when the music stops. No Discord app has
+  to be running anywhere; Noctorium's own servers at discord.noctorium.xyz and telegram.noctorium.xyz show it.
 - **Your listening, counted.** Sign in to a Noctorium account, if you want one, and the player counts what
   you play on your computer and your phone. Read it on [the statistics site](https://service.noctorium.xyz),
   or in **Noctorium Stats**, an app of its own for Windows, macOS, Linux and Android: the last week, month or
@@ -262,6 +267,8 @@ To hear about each new release as it comes out, follow [Noctorium on Telegram](h
 | [Noctorium-Mobile-Ios](https://github.com/Noctorium/Noctorium-Mobile-Ios) | Noctorium for iPhone and iPad, in SwiftUI with AVPlayer, built and tested in CI on a Mac. |
 | [Noctorium-Installer](https://github.com/Noctorium/Noctorium-Installer) | The release pipeline, the releases themselves, the small installers and the one-line install scripts. This is what the in-app updater watches. |
 | [Noctorium-Service](https://github.com/Noctorium/Noctorium-Service) | The optional Noctorium account, which keeps your listening statistics, and [the statistics site](https://service.noctorium.xyz) that shows them. |
+| [noctorium-discord-rpc-server](https://github.com/Noctorium/noctorium-discord-rpc-server) | Your Discord status from a server, at discord.noctorium.xyz: "Listening to Noctorium" with no Discord app running. |
+| [noctorium-telegram-rpc-server](https://github.com/Noctorium/noctorium-telegram-rpc-server) | The song you play in your Telegram bio, from a server, at telegram.noctorium.xyz. |
 | [Noctorium-Stats-Desktop](https://github.com/Noctorium/Noctorium-Stats-Desktop) | Noctorium Stats for Windows, macOS and Linux, in Rust: your statistics from the account, in a window of their own. |
 | [Noctorium-Stats-Mobile](https://github.com/Noctorium/Noctorium-Stats-Mobile) | Noctorium Stats for Android, in Dart with Flutter. |
 | [Noctorium-song-find-desktop-rust](https://github.com/Noctorium/Noctorium-song-find-desktop-rust) | Noctorium Song Find for Windows, macOS and Linux, in Rust: which song is playing, from the microphone or the computer's own sound. |
