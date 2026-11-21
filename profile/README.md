@@ -6,7 +6,7 @@
 
 **All your music. One player.**
 
-YouTube Music, SoundCloud, Bandcamp, Spotify, VK Music, Apple Music, Deezer and Tidal in one library: on Windows, macOS, Linux and Android — in the car with Android Auto and on the TV with Android TV — in a terminal, and in any browser.
+YouTube Music, SoundCloud, Bandcamp, Spotify, VK Music, Apple Music, Deezer and Tidal in one library: on Windows, macOS, Linux, Android and the iPhone — in the car with Android Auto and on the TV with Android TV — in a terminal, and in any browser.
 
 [Website](https://noctorium.vercel.app) · [Play in the browser](https://noctorium-music.vercel.app) · [Your statistics](https://noctorium-service.vercel.app) · [Download](https://github.com/Noctorium/Noctorium-Installer/releases/latest) · [What's new](https://noctorium.vercel.app/#whats-new) · [Release notes](https://github.com/Noctorium/Noctorium-Installer/tree/main/notes) · [Discord](https://discord.gg/TfePG6mzhM) · [Telegram](https://t.me/noctoriumismusic)
 
@@ -110,6 +110,12 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
 - **In the car and on the TV.** The Android app is Noctorium for **Android Auto** too — Home, your library,
   the queue, radio, search and voice on the car's screen — and for **Android TV and Google TV**, on the TV's home
   screen with pages made for the remote. One APK, one player: pick a song in the car and the phone shows it.
+- **Noctorium Lite, and Noctorium for iPhone and iPad.** **Noctorium Lite** is Noctorium for Android in about 125 KB,
+  against the full app's twenty megabytes, for any phone from Android 5: Home, search on YouTube Music and
+  SoundCloud, liked songs, playlists, a queue, autoplay and links, with nothing but what Android itself has inside.
+  **Noctorium for iOS** brings Home, search, your liked songs and playlists of your own, synced lyrics, the queue,
+  a sleep timer, and the lock screen and Control Center to the iPhone and iPad — not on the App Store, so it is
+  installed with AltStore or SideStore.
 - **Downloads.** Save songs for offline listening. On the desktop they are saved as MP3s with their covers.
   Bandcamp and VK songs stay on their service.
 - **Out of the way when you want it.** On the desktop, keep the music playing in the tray when you close
@@ -195,6 +201,8 @@ Or nothing at all: [play in the browser](https://noctorium-music.vercel.app). Ev
 | A terminal, and `noctorium web` | `noctorium-cli-<version>-windows-x64.zip`, `-linux-x64.tar.gz`, `-macos-arm64.tar.gz` or `-macos-x64.tar.gz` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or the one line above |
 | A browser | Nothing to download: [noctorium-music.vercel.app](https://noctorium-music.vercel.app) |
 | Android | The `.apk` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or [`Noctorium-Installer-android.apk`](https://github.com/Noctorium/Noctorium-Installer/releases/latest/download/Noctorium-Installer-android.apk), which installs Noctorium, Noctorium Stats or Noctorium Song Find on a phone or a TV, or [Obtainium](#on-android-with-obtainium) |
+| Noctorium Lite | `Noctorium-Lite-<version>.apk` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or [Obtainium](#on-android-with-obtainium) |
+| iPhone and iPad | `Noctorium-<version>-ios.ipa` from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), installed with [AltStore](https://altstore.io) or [SideStore](https://sidestore.io), which sign it with your own Apple ID |
 | Noctorium Stats | `noctorium-stats-<version>-windows-x64.zip`, `-linux-x64.tar.gz`, `-macos-arm64.zip` or `-macos-x64.zip`, and `Noctorium-Stats-<version>.apk` for Android, from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or the installers |
 | Noctorium Song Find | `noctorium-song-find-<version>-windows-x64.zip`, `-linux-x64.tar.gz`, `-macos-arm64.zip` or `-macos-x64.zip`, and `Noctorium-Song-Find-<version>.apk` for Android, from the [release](https://github.com/Noctorium/Noctorium-Installer/releases/latest), or the installers |
 
@@ -216,14 +224,15 @@ Tap a button on the phone or TV with Obtainium installed, and it opens with the 
 | | |
 | --- | --- |
 | **Noctorium** | <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22app.noctorium%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2FNoctorium%2FNoctorium-Installer%22%2C%22author%22%3A%22Noctorium%22%2C%22name%22%3A%22Noctorium%22%2C%22additionalSettings%22%3A%22%7B%5C%22apkFilterRegEx%5C%22%3A%5C%22%5ENoctorium-%5B0-9%5D.%2A%5B.%5Dapk%24%5C%22%7D%22%7D"><img src="badge_obtainium.png" alt="Get it on Obtainium" height="48"></a> |
+| **Noctorium Lite** | <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22app.noctorium.lite%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2FNoctorium%2FNoctorium-Installer%22%2C%22author%22%3A%22Noctorium%22%2C%22name%22%3A%22Noctorium%20Lite%22%2C%22additionalSettings%22%3A%22%7B%5C%22apkFilterRegEx%5C%22%3A%5C%22%5ENoctorium-Lite-%5B0-9%5D.%2A%5B.%5Dapk%24%5C%22%7D%22%7D"><img src="badge_obtainium.png" alt="Get it on Obtainium" height="48"></a> |
 | **Noctorium Stats** | <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22app.noctorium.stats%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2FNoctorium%2FNoctorium-Installer%22%2C%22author%22%3A%22Noctorium%22%2C%22name%22%3A%22Noctorium%20Stats%22%2C%22additionalSettings%22%3A%22%7B%5C%22apkFilterRegEx%5C%22%3A%5C%22%5ENoctorium-Stats-%5B0-9%5D.%2A%5B.%5Dapk%24%5C%22%7D%22%7D"><img src="badge_obtainium.png" alt="Get it on Obtainium" height="48"></a> |
 | **Noctorium Song Find** | <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22app.noctorium.songfind%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2FNoctorium%2FNoctorium-Installer%22%2C%22author%22%3A%22Noctorium%22%2C%22name%22%3A%22Noctorium%20Song%20Find%22%2C%22additionalSettings%22%3A%22%7B%5C%22apkFilterRegEx%5C%22%3A%5C%22%5ENoctorium-Song-Find-%5B0-9%5D.%2A%5B.%5Dapk%24%5C%22%7D%22%7D"><img src="badge_obtainium.png" alt="Get it on Obtainium" height="48"></a> |
 | **Noctorium Installer** | <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22app.noctorium.installer%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2FNoctorium%2FNoctorium-Installer%22%2C%22author%22%3A%22Noctorium%22%2C%22name%22%3A%22Noctorium%20Installer%22%2C%22additionalSettings%22%3A%22%7B%5C%22apkFilterRegEx%5C%22%3A%5C%22%5ENoctorium-Installer-android%5B.%5Dapk%24%5C%22%7D%22%7D"><img src="badge_obtainium.png" alt="Get it on Obtainium" height="48"></a> |
 
 Or add it by hand: **Add app**, the source `https://github.com/Noctorium/Noctorium-Installer`, and under
-*Filter APKs by regular expression* `^Noctorium-[0-9].*[.]apk$` for Noctorium,
+*Filter APKs by regular expression* `^Noctorium-[0-9].*[.]apk$` for Noctorium, `^Noctorium-Lite-[0-9].*[.]apk$` for Noctorium Lite,
 `^Noctorium-Stats-[0-9].*[.]apk$` for Noctorium Stats, `^Noctorium-Song-Find-[0-9].*[.]apk$` for
-Noctorium Song Find or `^Noctorium-Installer-android[.]apk$` for the installer — every release carries all four APKs, and the filter picks the right one. Obtainium
+Noctorium Song Find or `^Noctorium-Installer-android[.]apk$` for the installer — every release carries all five APKs, and the filter picks the right one. Obtainium
 checks them against nothing but the release itself, so the certificate fingerprint below is how to be sure.
 
 Every release has a `SHA256SUMS.txt` beside its files. The APK is signed with Noctorium's release key, and
@@ -249,6 +258,8 @@ To hear about each new release as it comes out, follow [Noctorium on Telegram](h
 | [Noctorium-Mobile](https://github.com/Noctorium/Noctorium-Mobile) | Android. Compose, Media3 for audio, NewPipeExtractor for the services, the system WebView for sign-in. Builds in Android Auto and Android TV. |
 | [Noctorium-Android-Auto](https://github.com/Noctorium/Noctorium-Android-Auto) | Noctorium for Android Auto: the car's menu, search and voice, over the phone app's Media3 session. |
 | [Noctorium-Android-TV](https://github.com/Noctorium/Noctorium-Android-TV) | Noctorium for Android TV and Google TV: Compose for TV pages for the remote, over the phone app's state. |
+| [Noctorium-Mobile-Lightweight](https://github.com/Noctorium/Noctorium-Mobile-Lightweight) | Noctorium Lite: Noctorium for Android in about 125 KB, with no library but Kotlin's own — Android's own views, MediaPlayer and media session. |
+| [Noctorium-Mobile-Ios](https://github.com/Noctorium/Noctorium-Mobile-Ios) | Noctorium for iPhone and iPad, in SwiftUI with AVPlayer, built and tested in CI on a Mac. |
 | [Noctorium-Installer](https://github.com/Noctorium/Noctorium-Installer) | The release pipeline, the releases themselves, the small installers and the one-line install scripts. This is what the in-app updater watches. |
 | [Noctorium-Service](https://github.com/Noctorium/Noctorium-Service) | The optional Noctorium account, which keeps your listening statistics, and [the statistics site](https://noctorium-service.vercel.app) that shows them. |
 | [Noctorium-Stats-Desktop](https://github.com/Noctorium/Noctorium-Stats-Desktop) | Noctorium Stats for Windows, macOS and Linux, in Rust: your statistics from the account, in a window of their own. |
