@@ -8,7 +8,7 @@
 
 YouTube Music, SoundCloud, Bandcamp, Spotify, VK Music, Apple Music, Deezer and Tidal in one library: on Windows, macOS, Linux, Android and the iPhone — in the car with Android Auto and on the TV with Android TV — in a terminal, and in any browser.
 
-[Website](https://noctorium.xyz) · [Play in the browser](https://noctorium-music.vercel.app) · [Your statistics](https://noctorium-service.vercel.app) · [Download](https://github.com/Noctorium/Noctorium-Installer/releases/latest) · [What's new](https://noctorium.xyz/#whats-new) · [Release notes](https://github.com/Noctorium/Noctorium-Installer/tree/main/notes) · [Discord](https://discord.gg/TfePG6mzhM) · [Telegram](https://t.me/noctoriumismusic)
+[Website](https://noctorium.xyz) · [Play in the browser](https://noctorium-music.vercel.app) · [Your statistics](https://service.noctorium.xyz) · [Download](https://github.com/Noctorium/Noctorium-Installer/releases/latest) · [What's new](https://noctorium.xyz/#whats-new) · [Release notes](https://github.com/Noctorium/Noctorium-Installer/tree/main/notes) · [Discord](https://discord.gg/TfePG6mzhM) · [Telegram](https://t.me/noctoriumismusic)
 
 [![Latest release](https://img.shields.io/github/v/release/Noctorium/Noctorium-Installer?label=release&color=b47cff)](https://github.com/Noctorium/Noctorium-Installer/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Noctorium/Noctorium-Installer/total?color=b47cff)](https://github.com/Noctorium/Noctorium-Installer/releases)
@@ -97,7 +97,7 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   computer and the phone, to play again or clear. It is kept on the device it was played on and sent nowhere,
   not even to your Noctorium account.
 - **Your listening, counted.** Sign in to a Noctorium account, if you want one, and the player counts what
-  you play on your computer and your phone. Read it on [the statistics site](https://noctorium-service.vercel.app),
+  you play on your computer and your phone. Read it on [the statistics site](https://service.noctorium.xyz),
   or in **Noctorium Stats**, an app of its own for Windows, macOS, Linux and Android: the last week, month or
   year or all of it, your top songs and artists, how the services share your listening, the hours and days
   you listen most, what you played last, and how many days in a row.
@@ -261,7 +261,7 @@ To hear about each new release as it comes out, follow [Noctorium on Telegram](h
 | [Noctorium-Mobile-Lightweight](https://github.com/Noctorium/Noctorium-Mobile-Lightweight) | Noctorium Lite: Noctorium for Android in about 125 KB, with no library but Kotlin's own — Android's own views, MediaPlayer and media session. |
 | [Noctorium-Mobile-Ios](https://github.com/Noctorium/Noctorium-Mobile-Ios) | Noctorium for iPhone and iPad, in SwiftUI with AVPlayer, built and tested in CI on a Mac. |
 | [Noctorium-Installer](https://github.com/Noctorium/Noctorium-Installer) | The release pipeline, the releases themselves, the small installers and the one-line install scripts. This is what the in-app updater watches. |
-| [Noctorium-Service](https://github.com/Noctorium/Noctorium-Service) | The optional Noctorium account, which keeps your listening statistics, and [the statistics site](https://noctorium-service.vercel.app) that shows them. |
+| [Noctorium-Service](https://github.com/Noctorium/Noctorium-Service) | The optional Noctorium account, which keeps your listening statistics, and [the statistics site](https://service.noctorium.xyz) that shows them. |
 | [Noctorium-Stats-Desktop](https://github.com/Noctorium/Noctorium-Stats-Desktop) | Noctorium Stats for Windows, macOS and Linux, in Rust: your statistics from the account, in a window of their own. |
 | [Noctorium-Stats-Mobile](https://github.com/Noctorium/Noctorium-Stats-Mobile) | Noctorium Stats for Android, in Dart with Flutter. |
 | [Noctorium-song-find-desktop-rust](https://github.com/Noctorium/Noctorium-song-find-desktop-rust) | Noctorium Song Find for Windows, macOS and Linux, in Rust: which song is playing, from the microphone or the computer's own sound. |
