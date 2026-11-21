@@ -8,7 +8,7 @@
 
 YouTube Music, SoundCloud, Bandcamp, Spotify, VK Music, Apple Music, Deezer and Tidal in one library: on Windows, macOS, Linux, Android and the iPhone — in the car with Android Auto and on the TV with Android TV — in a terminal, and in any browser.
 
-[Website](https://noctorium.vercel.app) · [Play in the browser](https://noctorium-music.vercel.app) · [Your statistics](https://noctorium-service.vercel.app) · [Download](https://github.com/Noctorium/Noctorium-Installer/releases/latest) · [What's new](https://noctorium.vercel.app/#whats-new) · [Release notes](https://github.com/Noctorium/Noctorium-Installer/tree/main/notes) · [Discord](https://discord.gg/TfePG6mzhM) · [Telegram](https://t.me/noctoriumismusic)
+[Website](https://noctorium.xyz) · [Play in the browser](https://noctorium-music.vercel.app) · [Your statistics](https://noctorium-service.vercel.app) · [Download](https://github.com/Noctorium/Noctorium-Installer/releases/latest) · [What's new](https://noctorium.xyz/#whats-new) · [Release notes](https://github.com/Noctorium/Noctorium-Installer/tree/main/notes) · [Discord](https://discord.gg/TfePG6mzhM) · [Telegram](https://t.me/noctoriumismusic)
 
 [![Latest release](https://img.shields.io/github/v/release/Noctorium/Noctorium-Installer?label=release&color=b47cff)](https://github.com/Noctorium/Noctorium-Installer/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Noctorium/Noctorium-Installer/total?color=b47cff)](https://github.com/Noctorium/Noctorium-Installer/releases)
@@ -168,11 +168,11 @@ Noctorium CLI, Noctorium Stats, Noctorium Rust and Noctorium Song Find you want,
 against the release's checksums:
 
 ```powershell
-irm https://noctorium.vercel.app/install | iex
+irm https://noctorium.xyz/install | iex
 ```
 
 ```bash
-curl -fsSL https://noctorium.vercel.app/install | sh
+curl -fsSL https://noctorium.xyz/install | sh
 ```
 
 <details>
@@ -266,7 +266,7 @@ To hear about each new release as it comes out, follow [Noctorium on Telegram](h
 | [Noctorium-Stats-Mobile](https://github.com/Noctorium/Noctorium-Stats-Mobile) | Noctorium Stats for Android, in Dart with Flutter. |
 | [Noctorium-song-find-desktop-rust](https://github.com/Noctorium/Noctorium-song-find-desktop-rust) | Noctorium Song Find for Windows, macOS and Linux, in Rust: which song is playing, from the microphone or the computer's own sound. |
 | [Noctorium-song-find-mobile-dart](https://github.com/Noctorium/Noctorium-song-find-mobile-dart) | Noctorium Song Find for Android, in Dart with Flutter: from the microphone or what the phone is playing. |
-| [Noctorium-Website](https://github.com/Noctorium/Noctorium-Website) | [noctorium.vercel.app](https://noctorium.vercel.app), which always offers the latest release. |
+| [Noctorium-Website](https://github.com/Noctorium/Noctorium-Website) | [noctorium.xyz](https://noctorium.xyz), which always offers the latest release. |
 
 To build the desktop app you need JDK 21:
 
