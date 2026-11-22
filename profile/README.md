@@ -77,8 +77,8 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   the queue is there next time, with the song you were in picked up where you left it.
 - **In a terminal, and in a browser.** `noctorium` is the whole player in a terminal — covers drawn in it,
   synced lyrics, every theme, by keyboard or mouse, and it keeps itself up to date. In a browser, [music.noctorium.xyz](https://music.noctorium.xyz)
-  plays YouTube Music and SoundCloud with nothing to install and no account, your likes and playlists kept
-  in the browser.
+  plays YouTube Music and SoundCloud with nothing to install, your likes and playlists kept in the browser,
+  and your Noctorium account if you want your listening counted.
   With your own accounts, `noctorium web` serves the same player from your computer to every browser on
   your network: open the link, or scan its code with a phone, and the music plays out of that device, while
   your sessions never leave the computer.
@@ -102,8 +102,10 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   your Telegram bio shows "🎵 Title — Artist", going back to your own bio when the music stops. No Discord app has
   to be running anywhere; Noctorium's own servers at discord.noctorium.xyz and telegram.noctorium.xyz show it.
 - **Sign in with Discord, Telegram or GitHub.** The Noctorium account opens with any of them or with an email
-  and password, and you can link several to one account. Every Noctorium with an account has the button: check
-  the code it shows and press Allow in the browser — on a TV or in a terminal, do it on your phone.
+  and password, and you can link several to one account. Telegram signs you in inside the Telegram app: press
+  Start, then Confirm, with no phone number typed anywhere. Every Noctorium has the button — the desktop, the
+  phone, the TV, the terminal, Noctorium Lite, the iPhone and the web player: check the code it shows and press
+  Allow in the browser — on a TV or in a terminal, do it on your phone.
 - **Your listening, counted.** Sign in to a Noctorium account, if you want one, and the player counts what
   you play on your computer and your phone. Read it on [the statistics site](https://service.noctorium.xyz),
   or in **Noctorium Stats**, an app of its own for Windows, macOS, Linux and Android: the last week, month or
@@ -118,11 +120,13 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
 - **In the car and on the TV.** The Android app is Noctorium for **Android Auto** too — Home, your library,
   the queue, radio, search and voice on the car's screen — and for **Android TV and Google TV**, on the TV's home
   screen with pages made for the remote. One APK, one player: pick a song in the car and the phone shows it.
-- **Noctorium Lite, and Noctorium for iPhone and iPad.** **Noctorium Lite** is Noctorium for Android in about 125 KB,
+- **Noctorium Lite, and Noctorium for iPhone and iPad.** **Noctorium Lite** is Noctorium for Android in about 130 KB,
   against the full app's twenty megabytes, for any phone from Android 5: Home, search on YouTube Music and
-  SoundCloud, liked songs, playlists, a queue, autoplay and links, with nothing but what Android itself has inside.
+  SoundCloud, liked songs, playlists, a queue, autoplay, links and your Noctorium account, with nothing but what
+  Android itself has inside.
   **Noctorium for iOS** brings Home, search, your liked songs and playlists of your own, synced lyrics, the queue,
-  a sleep timer, and the lock screen and Control Center to the iPhone and iPad — not on the App Store, so it is
+  a sleep timer, your Noctorium account, and the lock screen and Control Center to the iPhone and iPad — not on
+  the App Store, so it is
   installed with AltStore or SideStore.
 - **Downloads.** Save songs for offline listening. On the desktop they are saved as MP3s with their covers.
   Bandcamp and VK songs stay on their service.
@@ -266,7 +270,7 @@ To hear about each new release as it comes out, follow [Noctorium on Telegram](h
 | [Noctorium-Mobile](https://github.com/Noctorium/Noctorium-Mobile) | Android. Compose, Media3 for audio, NewPipeExtractor for the services, the system WebView for sign-in. Builds in Android Auto and Android TV. |
 | [Noctorium-Android-Auto](https://github.com/Noctorium/Noctorium-Android-Auto) | Noctorium for Android Auto: the car's menu, search and voice, over the phone app's Media3 session. |
 | [Noctorium-Android-TV](https://github.com/Noctorium/Noctorium-Android-TV) | Noctorium for Android TV and Google TV: Compose for TV pages for the remote, over the phone app's state. |
-| [Noctorium-Mobile-Lightweight](https://github.com/Noctorium/Noctorium-Mobile-Lightweight) | Noctorium Lite: Noctorium for Android in about 125 KB, with no library but Kotlin's own — Android's own views, MediaPlayer and media session. |
+| [Noctorium-Mobile-Lightweight](https://github.com/Noctorium/Noctorium-Mobile-Lightweight) | Noctorium Lite: Noctorium for Android in about 130 KB, with no library but Kotlin's own — Android's own views, MediaPlayer and media session. |
 | [Noctorium-Mobile-Ios](https://github.com/Noctorium/Noctorium-Mobile-Ios) | Noctorium for iPhone and iPad, in SwiftUI with AVPlayer, built and tested in CI on a Mac. |
 | [Noctorium-Installer](https://github.com/Noctorium/Noctorium-Installer) | The release pipeline, the releases themselves, the small installers and the one-line install scripts. This is what the in-app updater watches. |
 | [Noctorium-Service](https://github.com/Noctorium/Noctorium-Service) | The optional Noctorium account, which keeps your listening statistics, and [the statistics site](https://service.noctorium.xyz) that shows them. |
