@@ -93,6 +93,11 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   source right on the lyrics, and Noctorium remembers your pick.
 - **Scrobbling** to Last.fm, Libre.fm and ListenBrainz, and what you are playing shown on Discord. While a
   sign-in waits for you, its link is there to copy into any browser.
+- **Last.fm and ListenBrainz, linked once.** Link them to your [Noctorium account](https://service.noctorium.xyz)
+  — on its page, or by connecting them in any Noctorium while signed in — and every Noctorium you sign in to
+  scrobbles there: the desktop, phone, TV, terminal and Noctorium Rust connect them by themselves when you sign
+  in, and Noctorium Lite, the iPhone and the web player scrobble through your account, by Last.fm's own rule. The
+  session and the token are kept encrypted.
 - **A history that stays home.** Every song you listen to, newest first and by day, on your profile on the
   computer and the phone, to play again or clear. It is kept on the device it was played on and sent nowhere,
   not even to your Noctorium account.
