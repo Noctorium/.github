@@ -101,8 +101,8 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   terminal — your Discord status shows "Listening to Noctorium" with the song, its cover and how far in it is, and
   your Telegram bio shows "🎵 Title — Artist", going back to your own bio when the music stops. No Discord app has
   to be running anywhere; Noctorium's own servers at discord.noctorium.xyz and telegram.noctorium.xyz show it.
-- **Sign in with Discord, Telegram or GitHub.** The Noctorium account opens with any of them or with an email
-  and password, and you can link several to one account. Telegram signs you in inside the Telegram app: press
+- **Sign in with Discord or Telegram.** The Noctorium account opens with either of them or with an email
+  and password, and you can link them all to one account. Telegram signs you in inside the Telegram app: press
   Start, then Confirm, with no phone number typed anywhere. Every Noctorium has the button — the desktop, the
   phone, the TV, the terminal, Noctorium Lite, the iPhone and the web player: check the code it shows and press
   Allow in the browser — on a TV or in a terminal, do it on your phone.
