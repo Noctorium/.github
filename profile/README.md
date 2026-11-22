@@ -126,7 +126,7 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   the queue, radio, search and voice on the car's screen; pick a song in the car and the phone shows it.
   **Android TV and Google TV** have **Noctorium for TV**, on the TV's home screen with pages made for the
   remote, and cars with Google built in (Android Automotive) have **Noctorium for cars**, installed on the car
-  itself. Each is its own APK since 0.38.0, with the same library, queue and account.
+  itself. Each is its own APK since 0.38.1, with the same library, queue and account.
 - **Noctorium Lite, and Noctorium for iPhone and iPad.** **Noctorium Lite** is Noctorium for Android in about 130 KB,
   against the full app's twenty megabytes, for any phone from Android 5: Home, search on YouTube Music and
   SoundCloud, liked songs, playlists, a queue, autoplay, links and your Noctorium account, with nothing but what
