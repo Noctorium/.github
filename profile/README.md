@@ -101,6 +101,9 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   terminal — your Discord status shows "Listening to Noctorium" with the song, its cover and how far in it is, and
   your Telegram bio shows "🎵 Title — Artist", going back to your own bio when the music stops. No Discord app has
   to be running anywhere; Noctorium's own servers at discord.noctorium.xyz and telegram.noctorium.xyz show it.
+- **Sign in with Discord, Telegram or GitHub.** The Noctorium account opens with any of them or with an email
+  and password, and you can link several to one account. Every Noctorium with an account has the button: check
+  the code it shows and press Allow in the browser — on a TV or in a terminal, do it on your phone.
 - **Your listening, counted.** Sign in to a Noctorium account, if you want one, and the player counts what
   you play on your computer and your phone. Read it on [the statistics site](https://service.noctorium.xyz),
   or in **Noctorium Stats**, an app of its own for Windows, macOS, Linux and Android: the last week, month or
