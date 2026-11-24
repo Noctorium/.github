@@ -119,7 +119,9 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   you play on your computer and your phone. Read it on [the statistics site](https://stats.noctorium.xyz),
   or in **Noctorium Stats**, an app of its own for Windows, macOS, Linux and Android: the last week, month or
   year or all of it, your top songs and artists, how the services share your listening, the hours and days
-  you listen most, what you played last, and how many days in a row.
+  you listen most, what you played last, and how many days in a row. Or in Telegram:
+  [@StatsNoctoriumBot](https://t.me/StatsNoctoriumBot) answers /stats, /top, /recent and /now, opens the same
+  page with charts, and shares your top songs in any chat.
 - **Which song is this?** **Noctorium Song Find**, an app of its own for Windows, macOS, Linux and
   Android, listens and tells you — through the microphone, or straight from what the computer or phone is
   playing, with nothing held up to a speaker. It asks Shazam, AudD, ACRCloud and (on the desktop) AcoustID,
@@ -290,6 +292,7 @@ To hear about each new release as it comes out, follow [Noctorium on Telegram](h
 | [Noctorium-Service](https://github.com/Noctorium/Noctorium-Service) | Your listening statistics, and [the statistics site](https://stats.noctorium.xyz) that shows them. |
 | [noctorium-discord-rpc-server](https://github.com/Noctorium/noctorium-discord-rpc-server) | Your Discord status from a server, at discord.noctorium.xyz: "Listening to Noctorium" with no Discord app running. |
 | [noctorium-telegram-rpc-server](https://github.com/Noctorium/noctorium-telegram-rpc-server) | The song you play in your Telegram bio, from a server, at telegram.noctorium.xyz. |
+| [noctorium-tg-stats-tracker-server](https://github.com/Noctorium/noctorium-tg-stats-tracker-server) | Your statistics in Telegram: [@StatsNoctoriumBot](https://t.me/StatsNoctoriumBot) and its mini app, at [tgstats.noctorium.xyz](https://tgstats.noctorium.xyz). |
 | [Noctorium-Stats-Desktop](https://github.com/Noctorium/Noctorium-Stats-Desktop) | Noctorium Stats for Windows, macOS and Linux, in Rust: your statistics from the account, in a window of their own. |
 | [Noctorium-Stats-Mobile](https://github.com/Noctorium/Noctorium-Stats-Mobile) | Noctorium Stats for Android, in Dart with Flutter. |
 | [Noctorium-song-find-desktop-rust](https://github.com/Noctorium/Noctorium-song-find-desktop-rust) | Noctorium Song Find for Windows, macOS and Linux, in Rust: which song is playing, from the microphone or the computer's own sound. |
