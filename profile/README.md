@@ -101,11 +101,6 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
 - **A history that stays home.** Every song you listen to, newest first and by day, on your profile on the
   computer and the phone, to play again or clear. It is kept on the device it was played on and sent nowhere,
   not even to your Noctorium account.
-- **Your status on Discord and Telegram, with no computer needed.** Connect Discord and Telegram on your
-  [Noctorium account](https://account.noctorium.xyz), and whatever device you play on — the phone, the TV, a
-  terminal — your Discord status shows "Listening to Noctorium" with the song, its cover and how far in it is, and
-  your Telegram bio shows "🎵 Title — Artist", going back to your own bio when the music stops. No Discord app has
-  to be running anywhere; Noctorium's own servers at discord.noctorium.xyz and telegram.noctorium.xyz show it.
 - **Sign in with Discord or Telegram.** The Noctorium account opens with either of them or with an email
   and password, and you can link them all to one account. Telegram signs you in inside the Telegram app: press
   Start, then Confirm, with no phone number typed anywhere. Every Noctorium has the button — the desktop, the
