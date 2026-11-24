@@ -111,6 +111,10 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   Start, then Confirm, with no phone number typed anywhere. Every Noctorium has the button — the desktop, the
   phone, the TV, the terminal, Noctorium Lite, the iPhone and the web player: check the code it shows and press
   Allow in the browser — on a TV or in a terminal, do it on your phone.
+- **Your account, inside Noctorium.** Your picture sits on Home — upload one, or use your Discord or Telegram
+  picture — and tapping it opens your Noctorium account in the app: your name, email, password, or deleting the
+  account, with your two-step code if it is on. The gear beside it opens Settings, or one setting puts Settings
+  back in the sidebar or bottom bar; on the phone, Queue can leave the bottom bar too.
 - **Two-step verification.** Turn it on at [account.noctorium.xyz](https://account.noctorium.xyz): a code from an
   authenticator app (with backup codes for a lost phone), a code the Noctorium bot sends you on Telegram, or both.
   With both on, pick either one at each sign-in, or turn on strict mode to need both. Every sign-in asks — email,
