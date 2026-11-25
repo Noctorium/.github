@@ -162,7 +162,7 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   Night, three pure black crimson ones for OLED screens, and four Glow themes: near-black pages under a
   soft light, Afterglow's in the colour of the cover playing. Or make one of your own. Accent colours,
   including one taken from the artwork. Liquid glass for the buttons, the page behind them or both, and
-  animations throughout that you can switch off. On the phone, the player has the queue a swipe up from its foot,
+  animations throughout that you can switch off. On the phone, the queue is a swipe up from anywhere on the player,
   and a song's menu opens as a sheet; the old player and the old menu are a setting away.
   Icons in six sets, from Material's to thin Line strokes, and each service's own logo on the badge that says
   where a song comes from, or its letters if you prefer. Twelve seek bars, from a hairline to a row of
