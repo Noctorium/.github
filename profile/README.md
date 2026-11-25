@@ -111,6 +111,8 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   account, with your two-step code if it is on. The gear beside it opens Settings, or one setting puts Settings
   back in the sidebar or bottom bar; on the phone, Queue can leave the bottom bar too.
   On the desktop, choose which pages the sidebar keeps, and turn on your playlists there, scrolling on their own.
+  On the phone, the picture opens your account or **Stats**: your listens, time listened, top songs and artists
+  and the split by service, counted from the history on your phone.
 - **Two-step verification.** Turn it on at [account.noctorium.xyz](https://account.noctorium.xyz): a code from an
   authenticator app (with backup codes for a lost phone), a code the Noctorium bot sends you on Telegram, or both.
   With both on, pick either one at each sign-in, or turn on strict mode to need both. Every sign-in asks — email,
@@ -159,7 +161,9 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
 - **Make it yours.** Twenty-four themes, among them Catppuccin, Nord, Dracula, Gruvbox, Rosé Pine, Tokyo
   Night, three pure black crimson ones for OLED screens, and four Glow themes: near-black pages under a
   soft light, Afterglow's in the colour of the cover playing. Or make one of your own. Accent colours,
-  including one taken from the artwork. Liquid glass, and animations throughout that you can switch off.
+  including one taken from the artwork. Liquid glass for the buttons, the page behind them or both, and
+  animations throughout that you can switch off. On the phone, the player has the queue a swipe up from its foot,
+  and a song's menu opens as a sheet; the old player and the old menu are a setting away.
   Icons in six sets, from Material's to thin Line strokes, and each service's own logo on the badge that says
   where a song comes from, or its letters if you prefer. Twelve seek bars, from a hairline to a row of
   bars like SoundCloud's, a glowing neon line, a ruler or a slider. Twelve player bar layouts on the desktop
