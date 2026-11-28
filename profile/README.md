@@ -111,8 +111,11 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   account, with your two-step code if it is on. The gear beside it opens Settings, or one setting puts Settings
   back in the sidebar or bottom bar; on the phone, Queue can leave the bottom bar too.
   On the desktop, choose which pages the sidebar keeps, and turn on your playlists there, scrolling on their own.
-  On the phone, the picture opens your account or **Stats**: your listens, time listened, top songs and artists
-  and the split by service, counted from the history on your phone.
+  In every Noctorium the picture opens your account or **Stats**: your listens and time listened, your streak of
+  days in a row, a day-by-day chart, the hours and days you listen most, your top songs and artists, the split by
+  service and what you played last, from every device on your account.
+  **Noctorium Account**, an app of its own for Windows, macOS, Linux and Android, does all of the account page
+  without a browser: picture, name, email, password, two-step verification, scrobbling, and deleting.
 - **Two-step verification.** Turn it on at [account.noctorium.xyz](https://account.noctorium.xyz): a code from an
   authenticator app (with backup codes for a lost phone), a code the Noctorium bot sends you on Telegram, or both.
   With both on, pick either one at each sign-in, or turn on strict mode to need both. Every sign-in asks — email,
@@ -124,6 +127,10 @@ the service itself, not kept in a copy here. Open that service tomorrow on any o
   you listen most, what you played last, and how many days in a row. Or in Telegram:
   [@StatsNoctoriumBot](https://t.me/StatsNoctoriumBot) answers /stats, /top, /recent and /now, opens the same
   page with charts, and shares your top songs in any chat.
+- **Player mode: the phone as a music player.** On a spare phone, make Noctorium the home screen and the phone
+  becomes a music player: the clock and battery, the song playing with big buttons, Search, Library, Queue, Wi-Fi
+  and Bluetooth, and nothing else. *Settings → On this phone → Player mode*; hold the clock to leave. Not for the
+  phone you use every day.
 - **Which song is this?** **Noctorium Song Find**, an app of its own for Windows, macOS, Linux and
   Android, listens and tells you — through the microphone, or straight from what the computer or phone is
   playing, with nothing held up to a speaker. It asks Shazam, AudD, ACRCloud and (on the desktop) AcoustID,
